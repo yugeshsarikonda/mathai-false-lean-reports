@@ -9,7 +9,7 @@ Use Python **3.14** and Lean **4.15.0** for the tested environment. Python analy
 1. Clone the repository and enter its root directory:
 
    ```sh
-   git clone https://github.com/Yugiknows/mathai-false-lean-reports.git
+   git clone https://github.com/yugeshsarikonda/mathai-false-lean-reports.git
    cd mathai-false-lean-reports
    ```
 2. Install Lean using the [official installation instructions](https://lean-lang.org/install/). With the `elan` toolchain manager installed, run:
