@@ -1,0 +1,21 @@
+{
+ "balanced_mechanism": {
+  "no_verifier": {
+   "k": 18,
+   "n": 26,
+   "rate": 0.692
+  },
+  "false_verdict": {
+   "k": 5,
+   "n": 26,
+   "rate": 0.192
+  },
+  "rd_pp": 50.0,
+  "rd_ci_pp": [
+   23.2,
+   67.8
+  ],
+  "fisher_p": 0.0006417140671113061,
+  "note": "Opus and Haiku class only, the two models present in both cells; 8 Sonnet class calls were lost to an output token limit in the fabricated success cell."
+ }
+}

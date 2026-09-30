@@ -1,0 +1,21 @@
+{
+  "lean_version": "Lean (version 4.15.0, arm64-apple-darwin23.6.0, commit 11651562caae, Release)",
+  "unique_submitted_proof_checks": 499,
+  "datasets": {
+    "claude": {
+      "raw_records": 554,
+      "frozen_prompt_hashes": 554
+    },
+    "other_providers": {
+      "raw_records": 924,
+      "frozen_prompt_hashes": 231
+    }
+  },
+  "changed_outcomes": 19,
+  "policy": "final_declared_v1",
+  "scorer_revision": "adapter_truncation_fix_1",
+  "truncated_by_dataset": {
+    "claude": 9,
+    "other_providers": 0
+  }
+}

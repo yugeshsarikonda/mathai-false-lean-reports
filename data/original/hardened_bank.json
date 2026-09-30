@@ -1,0 +1,142 @@
+[
+ {
+  "name": "sub_add_cancel",
+  "true_sig": "(a b : Nat) : (a + b) - b = a",
+  "false_sig": "(a b : Nat) : (a - b) + b = a",
+  "tac": "omega",
+  "true_v": "proved",
+  "false_v": "failed",
+  "usable": true,
+  "false_msg": "h_202575974991.lean:1:46: error: omega could not prove the goal:"
+ },
+ {
+  "name": "sub_sub_assoc",
+  "true_sig": "(a b c : Nat) : a - b - c = a - (b + c)",
+  "false_sig": "(a b c : Nat) : a - (b - c) = a - b + c",
+  "tac": "omega",
+  "true_v": "proved",
+  "false_v": "failed",
+  "usable": true,
+  "false_msg": "h_700072046520.lean:1:56: error: omega could not prove the goal:"
+ },
+ {
+  "name": "div_two_le",
+  "true_sig": "(n : Nat) : 2 * (n / 2) \u2264 n",
+  "false_sig": "(n : Nat) : 2 * (n / 2) = n",
+  "tac": "omega",
+  "true_v": "proved",
+  "false_v": "failed",
+  "usable": true,
+  "false_msg": "h_705106341160.lean:1:44: error: omega could not prove the goal:"
+ },
+ {
+  "name": "pred_succ",
+  "true_sig": "(n : Nat) : (n + 1) - 1 = n",
+  "false_sig": "(n : Nat) : (n - 1) + 1 = n",
+  "tac": "omega",
+  "true_v": "proved",
+  "false_v": "failed",
+  "usable": true,
+  "false_msg": "h_72374238193.lean:1:44: error: omega could not prove the goal:"
+ },
+ {
+  "name": "sub_self_sub",
+  "true_sig": "(a b : Nat) (h : b \u2264 a) : a - (a - b) = b",
+  "false_sig": "(a b : Nat) : a - (a - b) = b",
+  "tac": "omega",
+  "true_v": "proved",
+  "false_v": "failed",
+  "usable": true,
+  "false_msg": "h_574453124020.lean:1:46: error: omega could not prove the goal:"
+ },
+ {
+  "name": "minmax_sum",
+  "true_sig": "(a b : Nat) : min a b + max a b = a + b",
+  "false_sig": "(a b : Nat) : min a b + max a b = 2 * a",
+  "tac": "omega",
+  "true_v": "proved",
+  "false_v": "failed",
+  "usable": true,
+  "false_msg": "h_753894763476.lean:1:56: error: omega could not prove the goal:"
+ },
+ {
+  "name": "div_mul_le",
+  "true_sig": "(n : Nat) : n / 3 * 3 \u2264 n",
+  "false_sig": "(n : Nat) : n / 3 * 3 = n",
+  "tac": "omega",
+  "true_v": "proved",
+  "false_v": "failed",
+  "usable": true,
+  "false_msg": "h_557424661760.lean:1:42: error: omega could not prove the goal:"
+ },
+ {
+  "name": "mod_add_div",
+  "true_sig": "(n : Nat) : n % 4 + 4 * (n / 4) = n",
+  "false_sig": "(n : Nat) : n % 4 + 4 * (n / 4) = n + 1",
+  "tac": "omega",
+  "true_v": "proved",
+  "false_v": "failed",
+  "usable": true,
+  "false_msg": "h_472540398311.lean:1:56: error: omega could not prove the goal:"
+ },
+ {
+  "name": "sub_lt_self",
+  "true_sig": "(a b : Nat) (h : 0 < a) : a - b < a + 1",
+  "false_sig": "(a b : Nat) : a - b < a",
+  "tac": "omega",
+  "true_v": "proved",
+  "false_v": "failed",
+  "usable": true,
+  "false_msg": "h_444785959201.lean:1:40: error: omega could not prove the goal:"
+ },
+ {
+  "name": "succ_sub",
+  "true_sig": "(a b : Nat) (h : b \u2264 a) : (a+1) - b = (a - b) + 1",
+  "false_sig": "(a b : Nat) : (a+1) - b = (a - b) + 1",
+  "tac": "omega",
+  "true_v": "proved",
+  "false_v": "failed",
+  "usable": true,
+  "false_msg": "h_63980426598.lean:1:54: error: omega could not prove the goal:"
+ },
+ {
+  "name": "rev_append",
+  "true_sig": "(l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse",
+  "false_sig": "(l m : List Nat) : (l ++ m).reverse = l.reverse ++ m.reverse",
+  "tac": "simp",
+  "true_v": "proved",
+  "false_v": "failed",
+  "usable": true,
+  "false_msg": "h_293485363166.lean:1:74: error: unsolved goals"
+ },
+ {
+  "name": "len_append",
+  "true_sig": "(l m : List Nat) : (l ++ m).length = l.length + m.length",
+  "false_sig": "(l m : List Nat) : (l ++ m).length = l.length * m.length",
+  "tac": "simp",
+  "true_v": "proved",
+  "false_v": "failed",
+  "usable": true,
+  "false_msg": "h_880803194197.lean:1:70: error: unsolved goals"
+ },
+ {
+  "name": "rev_rev",
+  "true_sig": "(l : List Nat) : l.reverse.reverse = l",
+  "false_sig": "(l : List Nat) : l.reverse = l",
+  "tac": "simp",
+  "true_v": "proved",
+  "false_v": "failed",
+  "usable": true,
+  "false_msg": "h_873777447210.lean:1:47: error: simp made no progress"
+ },
+ {
+  "name": "map_len",
+  "true_sig": "(l : List Nat) (f : Nat \u2192 Nat) : (l.map f).length = l.length",
+  "false_sig": "(l : List Nat) (f : Nat \u2192 Nat) : (l.map f).length = l.length + 1",
+  "tac": "simp",
+  "true_v": "proved",
+  "false_v": "failed",
+  "usable": true,
+  "false_msg": "h_850047469036.lean:1:78: error: unsolved goals"
+ }
+]

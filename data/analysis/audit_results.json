@@ -1,0 +1,2763 @@
+{
+  "original": {
+    "false_success": {
+      "a": [
+        37,
+        42
+      ],
+      "b": [
+        35,
+        41
+      ],
+      "difference_pp": 2.7293844367015097,
+      "newcombe_independent_ci": [
+        -12.487593061609761,
+        18.083017709582528
+      ],
+      "fisher": 0.7564601623649676,
+      "gee": {
+        "p": 0.29992799216547783,
+        "or": 0.8007595676474502,
+        "or_ci": [
+          0.5260723668646851,
+          1.2188739146298158
+        ],
+        "alpha": 0.22421132886382525
+      }
+    },
+    "false_error": {
+      "a": [
+        40,
+        42
+      ],
+      "b": [
+        2,
+        41
+      ],
+      "difference_pp": 90.36004645760742,
+      "newcombe_independent_ci": [
+        74.59856887678626,
+        95.29325458615263
+      ],
+      "fisher": 8.852002606483417e-19,
+      "gee": {
+        "p": 1.4853985617248567e-11,
+        "or": 0.0025647238104825856,
+        "or_ci": [
+          0.0004535662905279566,
+          0.014502418635211328
+        ],
+        "alpha": 0.010222597015074417
+      }
+    },
+    "mechanism_pooled": {
+      "a": [
+        31,
+        39
+      ],
+      "b": [
+        9,
+        31
+      ],
+      "difference_pp": 50.45492142266335,
+      "newcombe_independent_ci": [
+        27.34667667939363,
+        66.643967819689
+      ],
+      "fisher": 2.9714443420708226e-05,
+      "gee": {
+        "p": 5.251113438490003e-08,
+        "or": 0.1054159288760904,
+        "alpha": 0.016696321488744257
+      }
+    },
+    "gee_holm": [
+      0.29992799216547783,
+      4.4561956851745696e-11,
+      1.0502226876980006e-07
+    ],
+    "mechanism_balanced": {
+      "a": [
+        18,
+        26
+      ],
+      "b": [
+        5,
+        26
+      ],
+      "difference_pp": 50.0,
+      "newcombe_independent_ci": [
+        23.222673048197855,
+        67.84856628500029
+      ],
+      "fisher": 0.0006417140671113061
+    },
+    "mechanism_decisions": {
+      "KEEP": 17,
+      "REVISE": 9,
+      "REJECT_UNPROVABLE": 5
+    },
+    "by_model": {
+      "claude-sonnet-5": {
+        "false_success": {
+          "a": [
+            14,
+            14
+          ],
+          "b": [
+            13,
+            13
+          ],
+          "difference_pp": 0.0,
+          "newcombe_independent_ci": [
+            -21.531080273763592,
+            22.809537235419853
+          ],
+          "fisher": 1.0
+        },
+        "false_error": {
+          "a": [
+            14,
+            14
+          ],
+          "b": [
+            2,
+            13
+          ],
+          "difference_pp": 84.61538461538461,
+          "newcombe_independent_ci": [
+            50.198662555492525,
+            95.67418216419188
+          ],
+          "fisher": 5.982560835165494e-06
+        },
+        "mechanism": {
+          "a": [
+            13,
+            13
+          ],
+          "b": [
+            4,
+            5
+          ],
+          "difference_pp": 19.999999999999996,
+          "newcombe_independent_ci": [
+            -8.080249550643687,
+            62.44653702374748
+          ],
+          "fisher": 0.27777777777777773
+        }
+      },
+      "claude-opus-4-5-20251101": {
+        "false_success": {
+          "a": [
+            11,
+            14
+          ],
+          "b": [
+            10,
+            14
+          ],
+          "difference_pp": 7.14285714285714,
+          "newcombe_independent_ci": [
+            -23.97473065118553,
+            36.673615651689126
+          ],
+          "fisher": 1.0
+        },
+        "false_error": {
+          "a": [
+            14,
+            14
+          ],
+          "b": [
+            0,
+            14
+          ],
+          "difference_pp": 100.0,
+          "newcombe_independent_ci": [
+            69.55045426429972,
+            100.00000000000003
+          ],
+          "fisher": 4.9854673626379095e-08
+        },
+        "mechanism": {
+          "a": [
+            13,
+            13
+          ],
+          "b": [
+            2,
+            13
+          ],
+          "difference_pp": 84.61538461538461,
+          "newcombe_independent_ci": [
+            49.38473987977673,
+            95.67418216419188
+          ],
+          "fisher": 2.0191142818683536e-05
+        }
+      },
+      "claude-haiku-4-5-20251001": {
+        "false_success": {
+          "a": [
+            12,
+            14
+          ],
+          "b": [
+            12,
+            14
+          ],
+          "difference_pp": 0.0,
+          "newcombe_independent_ci": [
+            -27.637220456093747,
+            27.637220456093747
+          ],
+          "fisher": 1.0
+        },
+        "false_error": {
+          "a": [
+            12,
+            14
+          ],
+          "b": [
+            0,
+            14
+          ],
+          "difference_pp": 85.71428571428571,
+          "newcombe_independent_ci": [
+            52.22099421901301,
+            95.9906078728535
+          ],
+          "fisher": 5.982560835165493e-06
+        },
+        "mechanism": {
+          "a": [
+            5,
+            13
+          ],
+          "b": [
+            3,
+            13
+          ],
+          "difference_pp": 15.384615384615385,
+          "newcombe_independent_ci": [
+            -18.811307386965876,
+            45.363645429590264
+          ],
+          "fisher": 0.6727688787185353
+        }
+      }
+    },
+    "intervention": {
+      "claude-opus-4-5-20251101": {
+        "a": [
+          2,
+          13
+        ],
+        "b": [
+          13,
+          13
+        ],
+        "difference_pp": -84.61538461538461,
+        "newcombe_independent_ci": [
+          -95.67418216419188,
+          -49.38473987977673
+        ],
+        "fisher": 2.0191142818683536e-05
+      },
+      "claude-haiku-4-5-20251001": {
+        "a": [
+          4,
+          13
+        ],
+        "b": [
+          0,
+          13
+        ],
+        "difference_pp": 30.76923076923077,
+        "newcombe_independent_ci": [
+          1.6578961720234098,
+          57.63065681945096
+        ],
+        "fisher": 0.09565217391304348
+      }
+    },
+    "doubt": {
+      "a": [
+        6,
+        26
+      ],
+      "b": [
+        11,
+        26
+      ],
+      "difference_pp": -19.23076923076923,
+      "newcombe_independent_ci": [
+        -41.509945296754495,
+        6.0880604913739695
+      ],
+      "fisher": 0.23670621194184754
+    },
+    "between_model_provenance": {
+      "a": [
+        13,
+        13
+      ],
+      "b": [
+        0,
+        13
+      ],
+      "difference_pp": 100.0,
+      "newcombe_independent_ci": [
+        67.74244309021513,
+        100.0
+      ],
+      "fisher": 1.922965982731765e-07
+    },
+    "outcome_arithmetic_only": {},
+    "outcome_from_aggregate_only": {
+      "a": [
+        40,
+        42
+      ],
+      "b": [
+        31,
+        41
+      ],
+      "difference_pp": 19.62833914053426,
+      "newcombe_independent_ci": [
+        4.356143820203154,
+        34.9734013890084
+      ],
+      "fisher": 0.01334444767103789
+    }
+  },
+  "followup": {
+    "decide_error": {
+      "a": [
+        24,
+        28
+      ],
+      "b": [
+        5,
+        28
+      ],
+      "difference_pp": 67.85714285714285,
+      "newcombe_independent_ci": [
+        43.149140198931036,
+        81.02167267433015
+      ],
+      "fisher": 5.634730393685308e-07
+    },
+    "tactic": {
+      "a": [
+        15,
+        26
+      ],
+      "b": [
+        5,
+        26
+      ],
+      "difference_pp": 38.46153846153846,
+      "newcombe_independent_ci": [
+        12.023303245612038,
+        58.3613985580386
+      ],
+      "fisher": 0.009465263010356604
+    },
+    "provenance": {
+      "a": [
+        13,
+        13
+      ],
+      "b": [
+        6,
+        13
+      ],
+      "difference_pp": 53.84615384615385,
+      "newcombe_independent_ci": [
+        20.223520306257043,
+        76.7939321904617
+      ],
+      "fisher": 0.005217391304347826
+    },
+    "truthful_mismatch": {
+      "a": [
+        14,
+        14
+      ],
+      "b": [
+        4,
+        14
+      ],
+      "difference_pp": 71.42857142857143,
+      "newcombe_independent_ci": [
+        37.61094957823673,
+        88.27862135542308
+      ],
+      "fisher": 0.00015255530129672007
+    },
+    "sonnet_truncation": {
+      "a": [
+        9,
+        13
+      ],
+      "b": [
+        0,
+        13
+      ],
+      "difference_pp": 69.23076923076923,
+      "newcombe_independent_ci": [
+        33.99142760318695,
+        87.31929634428948
+      ],
+      "fisher": 0.0004576659038901601
+    },
+    "holm_fisher": {
+      "decide_error": 2.817365196842654e-06,
+      "tactic": 0.010434782608695651,
+      "provenance": 0.010434782608695651,
+      "truthful_mismatch": 0.0006102212051868803,
+      "sonnet_truncation": 0.0013729977116704803
+    },
+    "holm_paired_mcnemar": {
+      "decide_error": 0.0001049041748046875,
+      "tactic": 0.0126953125,
+      "provenance": 0.015625,
+      "truthful_mismatch": 0.0078125,
+      "sonnet_truncation": 0.01171875
+    },
+    "holm_item_signflip": {
+      "decide_error": 0.00244140625,
+      "tactic": 0.01171875,
+      "provenance": 0.015625,
+      "truthful_mismatch": 0.0078125,
+      "sonnet_truncation": 0.01171875
+    },
+    "OMG_notool_vs_OMG_FE_outcome": {
+      "a": [
+        28,
+        28
+      ],
+      "b": [
+        20,
+        28
+      ],
+      "difference_pp": 28.57142857142857,
+      "newcombe_independent_ci": [
+        10.601952267612122,
+        47.05928843329572
+      ],
+      "fisher": 0.004376090058664975
+    },
+    "DEC_notool_vs_DEC_FE_outcome": {
+      "a": [
+        27,
+        28
+      ],
+      "b": [
+        12,
+        28
+      ],
+      "difference_pp": 53.571428571428584,
+      "newcombe_independent_ci": [
+        30.624508916909164,
+        70.18195126324339
+      ],
+      "fisher": 1.7822557092118096e-05
+    },
+    "RFL_notool_vs_RFL_FS_outcome": {
+      "a": [
+        19,
+        26
+      ],
+      "b": [
+        4,
+        26
+      ],
+      "difference_pp": 57.692307692307686,
+      "newcombe_independent_ci": [
+        31.30286456705187,
+        73.81712212680846
+      ],
+      "fisher": 5.925393501491715e-05
+    },
+    "ASM_notool_vs_ASM_FS_outcome": {
+      "a": [
+        21,
+        26
+      ],
+      "b": [
+        13,
+        26
+      ],
+      "difference_pp": 30.76923076923077,
+      "newcombe_independent_ci": [
+        4.894986369634868,
+        51.66947525756813
+      ],
+      "fisher": 0.03985900190387223
+    },
+    "DEC_FE_vs_OMG_FE_outcome": {
+      "a": [
+        12,
+        28
+      ],
+      "b": [
+        20,
+        28
+      ],
+      "difference_pp": -28.571428571428577,
+      "newcombe_independent_ci": [
+        -49.65769403563217,
+        -2.717981390649171
+      ],
+      "fisher": 0.05771290709763481
+    },
+    "claude-opus-4-5-20251101": {
+      "RFL_notool": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          12,
+          13
+        ],
+        "kept": 0,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "RFL_FS": {
+        "decision": [
+          0,
+          13
+        ],
+        "outcome": [
+          0,
+          13
+        ],
+        "kept": 13,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "RFL_FS_prov_mismatch": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          12,
+          13
+        ],
+        "kept": 0,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "RFL_FS_prov_match": {
+        "decision": [
+          6,
+          13
+        ],
+        "outcome": [
+          6,
+          13
+        ],
+        "kept": 7,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "ASM_notool": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          12,
+          13
+        ],
+        "kept": 0,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "ASM_FS": {
+        "decision": [
+          9,
+          13
+        ],
+        "outcome": [
+          9,
+          13
+        ],
+        "kept": 4,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "TV_success": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "kept": 14,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "TV_prov_mismatch": {
+        "decision": [
+          4,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "kept": 4,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "TV_prov_match": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "kept": 14,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "OMG_notool": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "kept": 14,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "OMG_FE": {
+        "decision": [
+          1,
+          14
+        ],
+        "outcome": [
+          11,
+          14
+        ],
+        "kept": 1,
+        "rejected": 1,
+        "truncated": 0
+      },
+      "DEC_notool": {
+        "decision": [
+          12,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "kept": 12,
+        "rejected": 1,
+        "truncated": 0
+      },
+      "DEC_FE": {
+        "decision": [
+          5,
+          14
+        ],
+        "outcome": [
+          12,
+          14
+        ],
+        "kept": 5,
+        "rejected": 8,
+        "truncated": 0
+      }
+    },
+    "claude-haiku-4-5-20251001": {
+      "RFL_notool": {
+        "decision": [
+          8,
+          13
+        ],
+        "outcome": [
+          7,
+          13
+        ],
+        "kept": 1,
+        "rejected": 4,
+        "truncated": 0
+      },
+      "RFL_FS": {
+        "decision": [
+          5,
+          13
+        ],
+        "outcome": [
+          4,
+          13
+        ],
+        "kept": 5,
+        "rejected": 3,
+        "truncated": 0
+      },
+      "RFL_FS_prov_mismatch": {
+        "decision": [
+          0,
+          13
+        ],
+        "outcome": [
+          0,
+          13
+        ],
+        "kept": 8,
+        "rejected": 5,
+        "truncated": 0
+      },
+      "RFL_FS_prov_match": {
+        "decision": [
+          1,
+          13
+        ],
+        "outcome": [
+          2,
+          13
+        ],
+        "kept": 9,
+        "rejected": 3,
+        "truncated": 0
+      },
+      "ASM_notool": {
+        "decision": [
+          10,
+          13
+        ],
+        "outcome": [
+          9,
+          13
+        ],
+        "kept": 0,
+        "rejected": 3,
+        "truncated": 0
+      },
+      "ASM_FS": {
+        "decision": [
+          6,
+          13
+        ],
+        "outcome": [
+          4,
+          13
+        ],
+        "kept": 1,
+        "rejected": 6,
+        "truncated": 0
+      },
+      "TV_success": {
+        "decision": [
+          13,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "kept": 13,
+        "rejected": 1,
+        "truncated": 0
+      },
+      "TV_prov_mismatch": {
+        "decision": [
+          13,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "kept": 13,
+        "rejected": 1,
+        "truncated": 0
+      },
+      "TV_prov_match": {
+        "decision": [
+          13,
+          14
+        ],
+        "outcome": [
+          13,
+          14
+        ],
+        "kept": 13,
+        "rejected": 1,
+        "truncated": 0
+      },
+      "OMG_notool": {
+        "decision": [
+          13,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "kept": 13,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "OMG_FE": {
+        "decision": [
+          0,
+          14
+        ],
+        "outcome": [
+          9,
+          14
+        ],
+        "kept": 0,
+        "rejected": 3,
+        "truncated": 0
+      },
+      "DEC_notool": {
+        "decision": [
+          12,
+          14
+        ],
+        "outcome": [
+          13,
+          14
+        ],
+        "kept": 12,
+        "rejected": 2,
+        "truncated": 0
+      },
+      "DEC_FE": {
+        "decision": [
+          0,
+          14
+        ],
+        "outcome": [
+          0,
+          14
+        ],
+        "kept": 0,
+        "rejected": 14,
+        "truncated": 0
+      }
+    },
+    "claude-sonnet-5": {
+      "RFL_notool": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          13,
+          13
+        ],
+        "kept": 0,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "RFL_notool_cap1400": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          10,
+          13
+        ],
+        "kept": 0,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "RFL_FS_cap1400": {
+        "decision": [
+          3,
+          13
+        ],
+        "outcome": [
+          2,
+          13
+        ],
+        "kept": 1,
+        "rejected": 0,
+        "truncated": 9
+      },
+      "RFL_FS_prov_match": {
+        "decision": [
+          12,
+          13
+        ],
+        "outcome": [
+          12,
+          13
+        ],
+        "kept": 1,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "TV_success": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "kept": 14,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "OMG_notool": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "kept": 14,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "DEC_FE": {
+        "decision": [
+          9,
+          14
+        ],
+        "outcome": [
+          13,
+          14
+        ],
+        "kept": 9,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "TV_prov_match": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "kept": 14,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "DEC_notool": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "kept": 14,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "TV_prov_mismatch": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "kept": 14,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "OMG_FE": {
+        "decision": [
+          1,
+          14
+        ],
+        "outcome": [
+          12,
+          14
+        ],
+        "kept": 1,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "RFL_FS": {
+        "decision": [
+          11,
+          13
+        ],
+        "outcome": [
+          10,
+          13
+        ],
+        "kept": 2,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "ASM_notool": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          12,
+          13
+        ],
+        "kept": 0,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "RFL_FS_prov_mismatch": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          12,
+          13
+        ],
+        "kept": 0,
+        "rejected": 0,
+        "truncated": 0
+      },
+      "ASM_FS": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          12,
+          13
+        ],
+        "kept": 0,
+        "rejected": 0,
+        "truncated": 0
+      }
+    },
+    "RFL_notool_sonnet_tokens": {
+      "median": 417.0,
+      "total": 7514.0
+    },
+    "RFL_FS_sonnet_tokens": {
+      "median": 1241.0,
+      "total": 22138.0
+    }
+  },
+  "other": {
+    "gpt-4o": {
+      "FV_broken": {
+        "decision": [
+          5,
+          14
+        ],
+        "outcome": [
+          5,
+          14
+        ],
+        "decisions": {
+          "KEEP": 5,
+          "REJECT_UNPROVABLE": 5,
+          "REVISE": 4
+        }
+      },
+      "NT_valid": {
+        "decision": [
+          4,
+          14
+        ],
+        "outcome": [
+          9,
+          14
+        ],
+        "decisions": {
+          "REVISE": 10,
+          "KEEP": 4
+        }
+      },
+      "ASM_notool": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          6,
+          13
+        ],
+        "decisions": {
+          "REVISE": 13
+        }
+      },
+      "NT_broken": {
+        "decision": [
+          5,
+          14
+        ],
+        "outcome": [
+          5,
+          14
+        ],
+        "decisions": {
+          "REVISE": 9,
+          "REJECT_UNPROVABLE": 5
+        }
+      },
+      "FV_valid": {
+        "decision": [
+          0,
+          14
+        ],
+        "outcome": [
+          6,
+          14
+        ],
+        "decisions": {
+          "REVISE": 14
+        }
+      },
+      "TV_valid": {
+        "decision": [
+          13,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "decisions": {
+          "KEEP": 13,
+          "REVISE": 1
+        }
+      },
+      "TV_broken": {
+        "decision": [
+          3,
+          14
+        ],
+        "outcome": [
+          3,
+          14
+        ],
+        "decisions": {
+          "REVISE": 11,
+          "REJECT_UNPROVABLE": 3
+        }
+      },
+      "RFL_notool": {
+        "decision": [
+          7,
+          13
+        ],
+        "outcome": [
+          1,
+          13
+        ],
+        "decisions": {
+          "REVISE": 7,
+          "KEEP": 6
+        }
+      },
+      "RFL_FS": {
+        "decision": [
+          6,
+          13
+        ],
+        "outcome": [
+          1,
+          13
+        ],
+        "decisions": {
+          "KEEP": 7,
+          "REVISE": 6
+        }
+      },
+      "RFL_FS_prov_mismatch": {
+        "decision": [
+          5,
+          13
+        ],
+        "outcome": [
+          3,
+          13
+        ],
+        "decisions": {
+          "KEEP": 8,
+          "REVISE": 5
+        }
+      },
+      "RFL_FS_prov_match": {
+        "decision": [
+          5,
+          13
+        ],
+        "outcome": [
+          1,
+          13
+        ],
+        "decisions": {
+          "KEEP": 8,
+          "REVISE": 5
+        }
+      },
+      "ASM_FS": {
+        "decision": [
+          12,
+          13
+        ],
+        "outcome": [
+          6,
+          13
+        ],
+        "decisions": {
+          "REVISE": 12,
+          "REJECT_UNPROVABLE": 1
+        }
+      },
+      "TV_prov_mismatch": {
+        "decision": [
+          13,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "decisions": {
+          "KEEP": 13,
+          "REVISE": 1
+        }
+      },
+      "TV_prov_match": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "decisions": {
+          "KEEP": 14
+        }
+      },
+      "DEC_notool": {
+        "decision": [
+          13,
+          14
+        ],
+        "outcome": [
+          13,
+          14
+        ],
+        "decisions": {
+          "KEEP": 13,
+          "REJECT_UNPROVABLE": 1
+        }
+      },
+      "DEC_FE": {
+        "decision": [
+          1,
+          14
+        ],
+        "outcome": [
+          1,
+          14
+        ],
+        "decisions": {
+          "REJECT_UNPROVABLE": 12,
+          "REVISE": 1,
+          "KEEP": 1
+        }
+      },
+      "RFL_FS_doubt": {
+        "decision": [
+          6,
+          13
+        ],
+        "outcome": [
+          1,
+          13
+        ],
+        "decisions": {
+          "KEEP": 7,
+          "REVISE": 6
+        }
+      }
+    },
+    "gpt-5-mini": {
+      "FV_broken": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "decisions": {
+          "REJECT_UNPROVABLE": 14
+        }
+      },
+      "NT_valid": {
+        "decision": [
+          2,
+          14
+        ],
+        "outcome": [
+          8,
+          14
+        ],
+        "decisions": {
+          "REVISE": 12,
+          "KEEP": 2
+        }
+      },
+      "ASM_notool": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          5,
+          13
+        ],
+        "decisions": {
+          "REVISE": 13
+        }
+      },
+      "NT_broken": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "decisions": {
+          "REJECT_UNPROVABLE": 14
+        }
+      },
+      "FV_valid": {
+        "decision": [
+          0,
+          14
+        ],
+        "outcome": [
+          7,
+          14
+        ],
+        "decisions": {
+          "REVISE": 14
+        }
+      },
+      "TV_valid": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "decisions": {
+          "KEEP": 14
+        }
+      },
+      "TV_broken": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "decisions": {
+          "REJECT_UNPROVABLE": 14
+        }
+      },
+      "RFL_notool": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          4,
+          13
+        ],
+        "decisions": {
+          "REVISE": 13
+        }
+      },
+      "RFL_FS": {
+        "decision": [
+          4,
+          13
+        ],
+        "outcome": [
+          1,
+          13
+        ],
+        "decisions": {
+          "KEEP": 9,
+          "REVISE": 4
+        }
+      },
+      "RFL_FS_prov_mismatch": {
+        "decision": [
+          6,
+          13
+        ],
+        "outcome": [
+          2,
+          13
+        ],
+        "decisions": {
+          "KEEP": 7,
+          "REVISE": 6
+        }
+      },
+      "RFL_FS_prov_match": {
+        "decision": [
+          5,
+          13
+        ],
+        "outcome": [
+          4,
+          13
+        ],
+        "decisions": {
+          "KEEP": 8,
+          "REVISE": 5
+        }
+      },
+      "ASM_FS": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          5,
+          13
+        ],
+        "decisions": {
+          "REVISE": 13
+        }
+      },
+      "TV_prov_mismatch": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "decisions": {
+          "KEEP": 14
+        }
+      },
+      "TV_prov_match": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "decisions": {
+          "KEEP": 14
+        }
+      },
+      "DEC_notool": {
+        "decision": [
+          7,
+          14
+        ],
+        "outcome": [
+          12,
+          14
+        ],
+        "decisions": {
+          "KEEP": 7,
+          "REVISE": 7
+        }
+      },
+      "DEC_FE": {
+        "decision": [
+          0,
+          14
+        ],
+        "outcome": [
+          8,
+          14
+        ],
+        "decisions": {
+          "REVISE": 14
+        }
+      },
+      "RFL_FS_doubt": {
+        "decision": [
+          12,
+          13
+        ],
+        "outcome": [
+          3,
+          13
+        ],
+        "decisions": {
+          "REVISE": 12,
+          "KEEP": 1
+        }
+      }
+    },
+    "Llama-3.3-70B-Instruct": {
+      "FV_broken": {
+        "decision": [
+          6,
+          14
+        ],
+        "outcome": [
+          7,
+          14
+        ],
+        "decisions": {
+          "REJECT_UNPROVABLE": 6,
+          "REVISE": 5,
+          "KEEP": 3
+        }
+      },
+      "NT_valid": {
+        "decision": [
+          3,
+          14
+        ],
+        "outcome": [
+          7,
+          14
+        ],
+        "decisions": {
+          "REVISE": 11,
+          "KEEP": 3
+        }
+      },
+      "ASM_notool": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          4,
+          13
+        ],
+        "decisions": {
+          "REVISE": 13
+        }
+      },
+      "NT_broken": {
+        "decision": [
+          5,
+          14
+        ],
+        "outcome": [
+          5,
+          14
+        ],
+        "decisions": {
+          "REVISE": 8,
+          "REJECT_UNPROVABLE": 5,
+          "KEEP": 1
+        }
+      },
+      "FV_valid": {
+        "decision": [
+          1,
+          14
+        ],
+        "outcome": [
+          4,
+          14
+        ],
+        "decisions": {
+          "REVISE": 13,
+          "KEEP": 1
+        }
+      },
+      "TV_valid": {
+        "decision": [
+          10,
+          14
+        ],
+        "outcome": [
+          11,
+          14
+        ],
+        "decisions": {
+          "KEEP": 10,
+          "REVISE": 4
+        }
+      },
+      "TV_broken": {
+        "decision": [
+          4,
+          14
+        ],
+        "outcome": [
+          4,
+          14
+        ],
+        "decisions": {
+          "REVISE": 10,
+          "REJECT_UNPROVABLE": 4
+        }
+      },
+      "RFL_notool": {
+        "decision": [
+          6,
+          13
+        ],
+        "outcome": [
+          1,
+          13
+        ],
+        "decisions": {
+          "KEEP": 7,
+          "REVISE": 6
+        }
+      },
+      "RFL_FS": {
+        "decision": [
+          3,
+          13
+        ],
+        "outcome": [
+          0,
+          13
+        ],
+        "decisions": {
+          "KEEP": 10,
+          "REVISE": 3
+        }
+      },
+      "RFL_FS_prov_mismatch": {
+        "decision": [
+          3,
+          13
+        ],
+        "outcome": [
+          0,
+          13
+        ],
+        "decisions": {
+          "KEEP": 10,
+          "REVISE": 3
+        }
+      },
+      "RFL_FS_prov_match": {
+        "decision": [
+          3,
+          13
+        ],
+        "outcome": [
+          1,
+          13
+        ],
+        "decisions": {
+          "KEEP": 10,
+          "REVISE": 3
+        }
+      },
+      "ASM_FS": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          4,
+          13
+        ],
+        "decisions": {
+          "REVISE": 13
+        }
+      },
+      "TV_prov_mismatch": {
+        "decision": [
+          10,
+          14
+        ],
+        "outcome": [
+          11,
+          14
+        ],
+        "decisions": {
+          "KEEP": 10,
+          "REVISE": 4
+        }
+      },
+      "TV_prov_match": {
+        "decision": [
+          13,
+          14
+        ],
+        "outcome": [
+          13,
+          14
+        ],
+        "decisions": {
+          "KEEP": 13,
+          "REVISE": 1
+        }
+      },
+      "DEC_notool": {
+        "decision": [
+          11,
+          14
+        ],
+        "outcome": [
+          12,
+          14
+        ],
+        "decisions": {
+          "KEEP": 11,
+          "REVISE": 3
+        }
+      },
+      "DEC_FE": {
+        "decision": [
+          0,
+          14
+        ],
+        "outcome": [
+          1,
+          14
+        ],
+        "decisions": {
+          "REJECT_UNPROVABLE": 13,
+          "REVISE": 1
+        }
+      },
+      "RFL_FS_doubt": {
+        "decision": [
+          4,
+          13
+        ],
+        "outcome": [
+          0,
+          13
+        ],
+        "decisions": {
+          "KEEP": 9,
+          "REVISE": 4
+        }
+      }
+    },
+    "gpt-5-pro": {
+      "FV_broken": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "decisions": {
+          "REJECT_UNPROVABLE": 14
+        }
+      },
+      "NT_valid": {
+        "decision": [
+          3,
+          14
+        ],
+        "outcome": [
+          11,
+          14
+        ],
+        "decisions": {
+          "REVISE": 11,
+          "KEEP": 3
+        }
+      },
+      "ASM_notool": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          9,
+          13
+        ],
+        "decisions": {
+          "REVISE": 13
+        }
+      },
+      "NT_broken": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "decisions": {
+          "REJECT_UNPROVABLE": 14
+        }
+      },
+      "FV_valid": {
+        "decision": [
+          0,
+          14
+        ],
+        "outcome": [
+          10,
+          14
+        ],
+        "decisions": {
+          "REVISE": 14
+        }
+      },
+      "TV_valid": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "decisions": {
+          "KEEP": 14
+        }
+      },
+      "TV_broken": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "decisions": {
+          "REJECT_UNPROVABLE": 14
+        }
+      },
+      "RFL_notool": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          9,
+          13
+        ],
+        "decisions": {
+          "REVISE": 13
+        }
+      },
+      "RFL_FS": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          11,
+          13
+        ],
+        "decisions": {
+          "REVISE": 13
+        }
+      },
+      "RFL_FS_prov_mismatch": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          10,
+          13
+        ],
+        "decisions": {
+          "REVISE": 13
+        }
+      },
+      "RFL_FS_prov_match": {
+        "decision": [
+          10,
+          13
+        ],
+        "outcome": [
+          7,
+          13
+        ],
+        "decisions": {
+          "REVISE": 10,
+          "KEEP": 3
+        }
+      },
+      "ASM_FS": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          10,
+          13
+        ],
+        "decisions": {
+          "REVISE": 13
+        }
+      },
+      "TV_prov_mismatch": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "decisions": {
+          "KEEP": 14
+        }
+      },
+      "TV_prov_match": {
+        "decision": [
+          14,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "decisions": {
+          "KEEP": 14
+        }
+      },
+      "DEC_notool": {
+        "decision": [
+          10,
+          14
+        ],
+        "outcome": [
+          14,
+          14
+        ],
+        "decisions": {
+          "KEEP": 10,
+          "REVISE": 4
+        }
+      },
+      "DEC_FE": {
+        "decision": [
+          0,
+          14
+        ],
+        "outcome": [
+          12,
+          14
+        ],
+        "decisions": {
+          "REVISE": 14
+        }
+      },
+      "RFL_FS_doubt": {
+        "decision": [
+          13,
+          13
+        ],
+        "outcome": [
+          9,
+          13
+        ],
+        "decisions": {
+          "REVISE": 13
+        }
+      }
+    },
+    "baseline": {
+      "kept": 53,
+      "n": 112,
+      "outcome": [
+        86,
+        112
+      ]
+    },
+    "fabricated": {
+      "kept": 2,
+      "n": 112,
+      "outcome": [
+        49,
+        112
+      ]
+    },
+    "gpt_mini_tactic": {
+      "a": [
+        13,
+        13
+      ],
+      "b": [
+        4,
+        13
+      ],
+      "difference_pp": 69.23076923076923,
+      "newcombe_independent_ci": [
+        33.991427603186956,
+        87.3192963442895
+      ],
+      "fisher": 0.00045766590389016015
+    },
+    "gpt_mini_doubt": {
+      "a": [
+        12,
+        13
+      ],
+      "b": [
+        4,
+        13
+      ],
+      "difference_pp": 61.53846153846154,
+      "newcombe_independent_ci": [
+        24.41697434849371,
+        80.69970396995323
+      ],
+      "fisher": 0.0036074841836047917
+    }
+  },
+  "raw": {
+    "followup_claude": {
+      "records": 554,
+      "unique": 554,
+      "duplicate": 0,
+      "input_tokens": {
+        "claude-opus-4-5-20251101": 3969.0,
+        "claude-haiku-4-5-20251001": 3969.0,
+        "claude-sonnet-5": 699.0
+      },
+      "output_tokens": {
+        "claude-opus-4-5-20251101": 11993,
+        "claude-haiku-4-5-20251001": 24925,
+        "claude-sonnet-5": 142051
+      }
+    },
+    "other_providers": {
+      "records": 924,
+      "unique": 924,
+      "duplicate": 0,
+      "input_tokens": {
+        "gpt-4o": 219.0,
+        "gpt-5-mini": 218.0,
+        "Llama-3.3-70B-Instruct": 251.0,
+        "gpt-5-pro": 218.0
+      },
+      "output_tokens": {
+        "gpt-4o": 11654,
+        "gpt-5-mini": 242325,
+        "Llama-3.3-70B-Instruct": 11244,
+        "gpt-5-pro": 794894
+      }
+    }
+  },
+  "parser": {
+    "with_line": 1469,
+    "conflicting": 23,
+    "first_last_different": 23,
+    "changed_cells": [
+      {
+        "source": "followup_claude",
+        "model": "claude-haiku-4-5-20251001",
+        "cell": "ASM_notool",
+        "first_correct": 10,
+        "last_correct": 11
+      },
+      {
+        "source": "followup_claude",
+        "model": "claude-haiku-4-5-20251001",
+        "cell": "DEC_notool",
+        "first_correct": 12,
+        "last_correct": 13
+      },
+      {
+        "source": "followup_claude",
+        "model": "claude-haiku-4-5-20251001",
+        "cell": "RFL_FS",
+        "first_correct": 5,
+        "last_correct": 6
+      },
+      {
+        "source": "followup_claude",
+        "model": "claude-haiku-4-5-20251001",
+        "cell": "RFL_FS_prov_match",
+        "first_correct": 1,
+        "last_correct": 2
+      },
+      {
+        "source": "followup_claude",
+        "model": "claude-haiku-4-5-20251001",
+        "cell": "RFL_notool",
+        "first_correct": 8,
+        "last_correct": 9
+      },
+      {
+        "source": "followup_claude",
+        "model": "claude-haiku-4-5-20251001",
+        "cell": "TV_prov_mismatch",
+        "first_correct": 13,
+        "last_correct": 14
+      },
+      {
+        "source": "followup_claude",
+        "model": "claude-haiku-4-5-20251001",
+        "cell": "TV_success",
+        "first_correct": 13,
+        "last_correct": 14
+      },
+      {
+        "source": "followup_claude",
+        "model": "claude-opus-4-5-20251101",
+        "cell": "DEC_FE",
+        "first_correct": 5,
+        "last_correct": 4
+      },
+      {
+        "source": "followup_claude",
+        "model": "claude-opus-4-5-20251101",
+        "cell": "DEC_notool",
+        "first_correct": 12,
+        "last_correct": 13
+      },
+      {
+        "source": "other_providers",
+        "model": "Llama-3.3-70B-Instruct",
+        "cell": "FV_broken",
+        "first_correct": 6,
+        "last_correct": 7
+      }
+    ],
+    "raw_text_mismatch": 0,
+    "raw_dec_mismatch": 0
+  },
+  "prompt_hash": {
+    "followup_claude": {
+      "trials": 554,
+      "mismatches": 0
+    },
+    "other_providers": {
+      "trials": 231,
+      "mismatches": 0
+    }
+  },
+  "paired": [
+    {
+      "name": "original_false_success",
+      "pairs": 41,
+      "items": 14,
+      "a_correct": 36,
+      "b_correct": 35,
+      "losses": 1,
+      "gains": 0,
+      "mcnemar_p": 1.0,
+      "item_signflip_p": 1.0,
+      "difference_pp": 2.4390243902439024
+    },
+    {
+      "name": "original_false_error",
+      "pairs": 41,
+      "items": 14,
+      "a_correct": 39,
+      "b_correct": 2,
+      "losses": 37,
+      "gains": 0,
+      "mcnemar_p": 1.4551915228366852e-11,
+      "item_signflip_p": 0.0001220703125,
+      "difference_pp": 90.2439024390244
+    },
+    {
+      "name": "original_mechanism_pooled",
+      "pairs": 31,
+      "items": 13,
+      "a_correct": 23,
+      "b_correct": 9,
+      "losses": 14,
+      "gains": 0,
+      "mcnemar_p": 0.0001220703125,
+      "item_signflip_p": 0.0009765625,
+      "difference_pp": 45.16129032258064
+    },
+    {
+      "name": "original_mechanism_balanced",
+      "pairs": 26,
+      "items": 13,
+      "a_correct": 18,
+      "b_correct": 5,
+      "losses": 13,
+      "gains": 0,
+      "mcnemar_p": 0.000244140625,
+      "item_signflip_p": 0.0009765625,
+      "difference_pp": 50.0
+    },
+    {
+      "name": "original_mechanism_claude-sonnet-5",
+      "pairs": 5,
+      "items": 5,
+      "a_correct": 5,
+      "b_correct": 4,
+      "losses": 1,
+      "gains": 0,
+      "mcnemar_p": 1.0,
+      "item_signflip_p": 1.0,
+      "difference_pp": 20.0
+    },
+    {
+      "name": "original_mechanism_claude-opus-4-5-20251101",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 13,
+      "b_correct": 2,
+      "losses": 11,
+      "gains": 0,
+      "mcnemar_p": 0.0009765625,
+      "item_signflip_p": 0.0009765625,
+      "difference_pp": 84.61538461538461
+    },
+    {
+      "name": "original_mechanism_claude-haiku-4-5-20251001",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 5,
+      "b_correct": 3,
+      "losses": 2,
+      "gains": 0,
+      "mcnemar_p": 0.5,
+      "item_signflip_p": 0.5,
+      "difference_pp": 15.384615384615385
+    },
+    {
+      "name": "provenance_original_claude-opus-4-5-20251101",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 2,
+      "b_correct": 13,
+      "losses": 0,
+      "gains": 11,
+      "mcnemar_p": 0.0009765625,
+      "item_signflip_p": 0.0009765625,
+      "difference_pp": -84.61538461538461
+    },
+    {
+      "name": "provenance_original_claude-haiku-4-5-20251001",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 4,
+      "b_correct": 0,
+      "losses": 4,
+      "gains": 0,
+      "mcnemar_p": 0.125,
+      "item_signflip_p": 0.125,
+      "difference_pp": 30.76923076923077
+    },
+    {
+      "name": "doubt_original",
+      "pairs": 26,
+      "items": 13,
+      "a_correct": 6,
+      "b_correct": 11,
+      "losses": 2,
+      "gains": 7,
+      "mcnemar_p": 0.1796875,
+      "item_signflip_p": 0.125,
+      "difference_pp": -19.230769230769234
+    },
+    {
+      "name": "selected_decide_error",
+      "pairs": 28,
+      "items": 14,
+      "a_correct": 24,
+      "b_correct": 5,
+      "losses": 20,
+      "gains": 1,
+      "mcnemar_p": 2.09808349609375e-05,
+      "item_signflip_p": 0.00048828125,
+      "difference_pp": 67.85714285714286
+    },
+    {
+      "name": "selected_tactic",
+      "pairs": 26,
+      "items": 13,
+      "a_correct": 15,
+      "b_correct": 5,
+      "losses": 11,
+      "gains": 1,
+      "mcnemar_p": 0.00634765625,
+      "item_signflip_p": 0.00390625,
+      "difference_pp": 38.46153846153847
+    },
+    {
+      "name": "selected_provenance",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 13,
+      "b_correct": 6,
+      "losses": 7,
+      "gains": 0,
+      "mcnemar_p": 0.015625,
+      "item_signflip_p": 0.015625,
+      "difference_pp": 53.84615384615385
+    },
+    {
+      "name": "selected_truthful_mismatch",
+      "pairs": 14,
+      "items": 14,
+      "a_correct": 14,
+      "b_correct": 4,
+      "losses": 10,
+      "gains": 0,
+      "mcnemar_p": 0.001953125,
+      "item_signflip_p": 0.001953125,
+      "difference_pp": 71.42857142857143
+    },
+    {
+      "name": "selected_sonnet_truncation",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 9,
+      "b_correct": 0,
+      "losses": 9,
+      "gains": 0,
+      "mcnemar_p": 0.00390625,
+      "item_signflip_p": 0.00390625,
+      "difference_pp": 69.23076923076923
+    },
+    {
+      "name": "outcome_OMG_notool_vs_OMG_FE",
+      "pairs": 28,
+      "items": 14,
+      "a_correct": 28,
+      "b_correct": 20,
+      "losses": 8,
+      "gains": 0,
+      "mcnemar_p": 0.0078125,
+      "item_signflip_p": 0.0078125,
+      "difference_pp": 28.57142857142857
+    },
+    {
+      "name": "outcome_DEC_notool_vs_DEC_FE",
+      "pairs": 28,
+      "items": 14,
+      "a_correct": 27,
+      "b_correct": 12,
+      "losses": 15,
+      "gains": 0,
+      "mcnemar_p": 6.103515625e-05,
+      "item_signflip_p": 0.000244140625,
+      "difference_pp": 53.57142857142857
+    },
+    {
+      "name": "outcome_RFL_notool_vs_RFL_FS",
+      "pairs": 26,
+      "items": 13,
+      "a_correct": 19,
+      "b_correct": 4,
+      "losses": 17,
+      "gains": 2,
+      "mcnemar_p": 0.000728607177734375,
+      "item_signflip_p": 0.001953125,
+      "difference_pp": 57.692307692307686
+    },
+    {
+      "name": "outcome_ASM_notool_vs_ASM_FS",
+      "pairs": 26,
+      "items": 13,
+      "a_correct": 21,
+      "b_correct": 13,
+      "losses": 9,
+      "gains": 1,
+      "mcnemar_p": 0.021484375,
+      "item_signflip_p": 0.015625,
+      "difference_pp": 30.76923076923077
+    },
+    {
+      "name": "outcome_DEC_FE_vs_OMG_FE",
+      "pairs": 28,
+      "items": 14,
+      "a_correct": 12,
+      "b_correct": 20,
+      "losses": 3,
+      "gains": 11,
+      "mcnemar_p": 0.057373046875,
+      "item_signflip_p": 0.015625,
+      "difference_pp": -28.57142857142857
+    },
+    {
+      "name": "claude-opus-4-5-20251101_DEC_notool_vs_DEC_FE",
+      "pairs": 14,
+      "items": 14,
+      "a_correct": 12,
+      "b_correct": 5,
+      "losses": 8,
+      "gains": 1,
+      "mcnemar_p": 0.0390625,
+      "item_signflip_p": 0.0390625,
+      "difference_pp": 50.0
+    },
+    {
+      "name": "claude-opus-4-5-20251101_RFL_notool_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 13,
+      "b_correct": 0,
+      "losses": 13,
+      "gains": 0,
+      "mcnemar_p": 0.000244140625,
+      "item_signflip_p": 0.000244140625,
+      "difference_pp": 100.0
+    },
+    {
+      "name": "claude-opus-4-5-20251101_ASM_FS_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 9,
+      "b_correct": 0,
+      "losses": 9,
+      "gains": 0,
+      "mcnemar_p": 0.00390625,
+      "item_signflip_p": 0.00390625,
+      "difference_pp": 69.23076923076923
+    },
+    {
+      "name": "claude-haiku-4-5-20251001_DEC_notool_vs_DEC_FE",
+      "pairs": 14,
+      "items": 14,
+      "a_correct": 12,
+      "b_correct": 0,
+      "losses": 12,
+      "gains": 0,
+      "mcnemar_p": 0.00048828125,
+      "item_signflip_p": 0.00048828125,
+      "difference_pp": 85.71428571428571
+    },
+    {
+      "name": "claude-haiku-4-5-20251001_RFL_notool_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 8,
+      "b_correct": 5,
+      "losses": 4,
+      "gains": 1,
+      "mcnemar_p": 0.375,
+      "item_signflip_p": 0.375,
+      "difference_pp": 23.076923076923077
+    },
+    {
+      "name": "claude-haiku-4-5-20251001_ASM_FS_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 6,
+      "b_correct": 5,
+      "losses": 2,
+      "gains": 1,
+      "mcnemar_p": 1.0,
+      "item_signflip_p": 1.0,
+      "difference_pp": 7.6923076923076925
+    },
+    {
+      "name": "claude-sonnet-5_DEC_notool_vs_DEC_FE",
+      "pairs": 14,
+      "items": 14,
+      "a_correct": 14,
+      "b_correct": 9,
+      "losses": 5,
+      "gains": 0,
+      "mcnemar_p": 0.0625,
+      "item_signflip_p": 0.0625,
+      "difference_pp": 35.714285714285715
+    },
+    {
+      "name": "claude-sonnet-5_RFL_notool_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 13,
+      "b_correct": 11,
+      "losses": 2,
+      "gains": 0,
+      "mcnemar_p": 0.5,
+      "item_signflip_p": 0.5,
+      "difference_pp": 15.384615384615385
+    },
+    {
+      "name": "claude-sonnet-5_ASM_FS_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 13,
+      "b_correct": 11,
+      "losses": 2,
+      "gains": 0,
+      "mcnemar_p": 0.5,
+      "item_signflip_p": 0.5,
+      "difference_pp": 15.384615384615385
+    },
+    {
+      "name": "gpt-4o_NT_valid_vs_FV_valid",
+      "pairs": 14,
+      "items": 14,
+      "a_correct": 4,
+      "b_correct": 0,
+      "losses": 4,
+      "gains": 0,
+      "mcnemar_p": 0.125,
+      "item_signflip_p": 0.125,
+      "difference_pp": 28.57142857142857
+    },
+    {
+      "name": "gpt-4o_DEC_notool_vs_DEC_FE",
+      "pairs": 14,
+      "items": 14,
+      "a_correct": 13,
+      "b_correct": 1,
+      "losses": 12,
+      "gains": 0,
+      "mcnemar_p": 0.00048828125,
+      "item_signflip_p": 0.00048828125,
+      "difference_pp": 85.71428571428571
+    },
+    {
+      "name": "gpt-4o_RFL_notool_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 7,
+      "b_correct": 6,
+      "losses": 2,
+      "gains": 1,
+      "mcnemar_p": 1.0,
+      "item_signflip_p": 1.0,
+      "difference_pp": 7.6923076923076925
+    },
+    {
+      "name": "gpt-4o_ASM_FS_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 12,
+      "b_correct": 6,
+      "losses": 6,
+      "gains": 0,
+      "mcnemar_p": 0.03125,
+      "item_signflip_p": 0.03125,
+      "difference_pp": 46.15384615384615
+    },
+    {
+      "name": "gpt-4o_RFL_FS_doubt_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 6,
+      "b_correct": 6,
+      "losses": 1,
+      "gains": 1,
+      "mcnemar_p": 1.0,
+      "item_signflip_p": 1.0,
+      "difference_pp": 0.0
+    },
+    {
+      "name": "gpt-5-mini_NT_valid_vs_FV_valid",
+      "pairs": 14,
+      "items": 14,
+      "a_correct": 2,
+      "b_correct": 0,
+      "losses": 2,
+      "gains": 0,
+      "mcnemar_p": 0.5,
+      "item_signflip_p": 0.5,
+      "difference_pp": 14.285714285714285
+    },
+    {
+      "name": "gpt-5-mini_DEC_notool_vs_DEC_FE",
+      "pairs": 14,
+      "items": 14,
+      "a_correct": 7,
+      "b_correct": 0,
+      "losses": 7,
+      "gains": 0,
+      "mcnemar_p": 0.015625,
+      "item_signflip_p": 0.015625,
+      "difference_pp": 50.0
+    },
+    {
+      "name": "gpt-5-mini_RFL_notool_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 13,
+      "b_correct": 4,
+      "losses": 9,
+      "gains": 0,
+      "mcnemar_p": 0.00390625,
+      "item_signflip_p": 0.00390625,
+      "difference_pp": 69.23076923076923
+    },
+    {
+      "name": "gpt-5-mini_ASM_FS_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 13,
+      "b_correct": 4,
+      "losses": 9,
+      "gains": 0,
+      "mcnemar_p": 0.00390625,
+      "item_signflip_p": 0.00390625,
+      "difference_pp": 69.23076923076923
+    },
+    {
+      "name": "gpt-5-mini_RFL_FS_doubt_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 12,
+      "b_correct": 4,
+      "losses": 8,
+      "gains": 0,
+      "mcnemar_p": 0.0078125,
+      "item_signflip_p": 0.0078125,
+      "difference_pp": 61.53846153846154
+    },
+    {
+      "name": "Llama-3.3-70B-Instruct_NT_valid_vs_FV_valid",
+      "pairs": 14,
+      "items": 14,
+      "a_correct": 3,
+      "b_correct": 1,
+      "losses": 2,
+      "gains": 0,
+      "mcnemar_p": 0.5,
+      "item_signflip_p": 0.5,
+      "difference_pp": 14.285714285714285
+    },
+    {
+      "name": "Llama-3.3-70B-Instruct_DEC_notool_vs_DEC_FE",
+      "pairs": 14,
+      "items": 14,
+      "a_correct": 11,
+      "b_correct": 0,
+      "losses": 11,
+      "gains": 0,
+      "mcnemar_p": 0.0009765625,
+      "item_signflip_p": 0.0009765625,
+      "difference_pp": 78.57142857142857
+    },
+    {
+      "name": "Llama-3.3-70B-Instruct_RFL_notool_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 6,
+      "b_correct": 3,
+      "losses": 3,
+      "gains": 0,
+      "mcnemar_p": 0.25,
+      "item_signflip_p": 0.25,
+      "difference_pp": 23.076923076923077
+    },
+    {
+      "name": "Llama-3.3-70B-Instruct_ASM_FS_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 13,
+      "b_correct": 3,
+      "losses": 10,
+      "gains": 0,
+      "mcnemar_p": 0.001953125,
+      "item_signflip_p": 0.001953125,
+      "difference_pp": 76.92307692307693
+    },
+    {
+      "name": "Llama-3.3-70B-Instruct_RFL_FS_doubt_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 4,
+      "b_correct": 3,
+      "losses": 1,
+      "gains": 0,
+      "mcnemar_p": 1.0,
+      "item_signflip_p": 1.0,
+      "difference_pp": 7.6923076923076925
+    },
+    {
+      "name": "gpt-5-pro_NT_valid_vs_FV_valid",
+      "pairs": 14,
+      "items": 14,
+      "a_correct": 3,
+      "b_correct": 0,
+      "losses": 3,
+      "gains": 0,
+      "mcnemar_p": 0.25,
+      "item_signflip_p": 0.25,
+      "difference_pp": 21.428571428571427
+    },
+    {
+      "name": "gpt-5-pro_DEC_notool_vs_DEC_FE",
+      "pairs": 14,
+      "items": 14,
+      "a_correct": 10,
+      "b_correct": 0,
+      "losses": 10,
+      "gains": 0,
+      "mcnemar_p": 0.001953125,
+      "item_signflip_p": 0.001953125,
+      "difference_pp": 71.42857142857143
+    },
+    {
+      "name": "gpt-5-pro_RFL_notool_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 13,
+      "b_correct": 13,
+      "losses": 0,
+      "gains": 0,
+      "mcnemar_p": 1.0,
+      "item_signflip_p": 1.0,
+      "difference_pp": 0.0
+    },
+    {
+      "name": "gpt-5-pro_ASM_FS_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 13,
+      "b_correct": 13,
+      "losses": 0,
+      "gains": 0,
+      "mcnemar_p": 1.0,
+      "item_signflip_p": 1.0,
+      "difference_pp": 0.0
+    },
+    {
+      "name": "gpt-5-pro_RFL_FS_doubt_vs_RFL_FS",
+      "pairs": 13,
+      "items": 13,
+      "a_correct": 13,
+      "b_correct": 13,
+      "losses": 0,
+      "gains": 0,
+      "mcnemar_p": 1.0,
+      "item_signflip_p": 1.0,
+      "difference_pp": 0.0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+source,model,cell,reported,recomputed_paper_policy,last_dec_first_proof_policy,literal_final_proof,final_declared_outcome
+claude,claude-haiku-4-5-20251001,ASM_FS,4,4,4,5,4
+claude,claude-haiku-4-5-20251001,ASM_notool,8,8,8,9,9
+claude,claude-haiku-4-5-20251001,DEC_notool,12,12,13,13,13
+claude,claude-haiku-4-5-20251001,OMG_FE,8,8,8,9,9
+claude,claude-haiku-4-5-20251001,RFL_FS,3,3,3,4,4
+claude,claude-haiku-4-5-20251001,RFL_FS_prov_match,1,1,1,2,2
+claude,claude-haiku-4-5-20251001,RFL_FS_prov_mismatch,0,0,0,2,0
+claude,claude-haiku-4-5-20251001,RFL_notool,6,6,6,8,7
+claude,claude-haiku-4-5-20251001,TV_prov_mismatch,13,13,14,14,14
+claude,claude-haiku-4-5-20251001,TV_success,13,13,14,14,14
+claude,claude-opus-4-5-20251101,DEC_FE,6,6,6,12,12
+claude,claude-opus-4-5-20251101,DEC_notool,13,13,14,14,14
+claude,claude-opus-4-5-20251101,OMG_FE,10,10,10,11,11
+other,Llama-3.3-70B-Instruct,FV_broken,6,6,7,7,7

@@ -1,0 +1,4007 @@
+source,trial_id,src,reference,result,matches_compile_reference,message
+claude,b2_0000,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0001,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0002,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0003,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0004,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0005,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0006,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0007,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0008,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0009,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0010,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0011,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0012,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0013,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0014,"theorem T (a b : Nat) : (a + b) - b = a := by assumption
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'assumption' failed
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0015,"theorem T (a b : Nat) : (a + b) - b = a := by assumption
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'assumption' failed
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0016,"theorem T (a b : Nat) : (a + b) - b = a := by assumption
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'assumption' failed
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0017,"theorem T (a b : Nat) : (a + b) - b = a := by assumption
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'assumption' failed
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0018,"theorem T (a b : Nat) : (a + b) - b = a := by assumption
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'assumption' failed
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0019,"theorem T (a b : Nat) : (a + b) - b = a := by assumption
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'assumption' failed
+a b : Nat
+⊢ a + b - b = a
+"
+claude,b2_0020,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0021,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0022,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0023,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0024,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0025,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0026,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0027,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0028,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0029,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0030,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0031,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0032,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0033,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0034,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0035,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0036,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0037,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0038,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0039,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+claude,b2_0040,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0041,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0042,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0043,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0044,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0045,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0046,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0047,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0048,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0049,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0050,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0051,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0052,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0053,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0054,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by assumption
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'assumption' failed
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0055,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by assumption
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'assumption' failed
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0056,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by assumption
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'assumption' failed
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0057,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by assumption
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'assumption' failed
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0058,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by assumption
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'assumption' failed
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0059,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by assumption
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'assumption' failed
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+claude,b2_0060,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0061,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0062,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0063,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0064,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0065,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0066,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0067,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0068,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0069,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0070,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0071,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0072,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0073,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0074,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by assumption
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0075,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by assumption
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0076,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by assumption
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0077,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by assumption
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0078,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by assumption
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0079,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by assumption
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+claude,b2_0080,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0081,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0082,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0083,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0084,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0085,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0086,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0087,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0088,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0089,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0090,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0091,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0092,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0093,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0094,"theorem T (a b : Nat) : min a b + max a b = a + b := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0095,"theorem T (a b : Nat) : min a b + max a b = a + b := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0096,"theorem T (a b : Nat) : min a b + max a b = a + b := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0097,"theorem T (a b : Nat) : min a b + max a b = a + b := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0098,"theorem T (a b : Nat) : min a b + max a b = a + b := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0099,"theorem T (a b : Nat) : min a b + max a b = a + b := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+claude,b2_0100,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0101,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0102,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0103,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0104,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0105,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0106,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0107,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0108,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0109,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0110,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0111,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0112,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0113,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0114,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by assumption
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'assumption' failed
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0115,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by assumption
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'assumption' failed
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0116,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by assumption
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'assumption' failed
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0117,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by assumption
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'assumption' failed
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0118,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by assumption
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'assumption' failed
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0119,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by assumption
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'assumption' failed
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+claude,b2_0120,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0121,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0122,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0123,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0124,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0125,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0126,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0127,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0128,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0129,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0130,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0131,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0132,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0133,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0134,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by assumption
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'assumption' failed
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0135,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by assumption
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'assumption' failed
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0136,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by assumption
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'assumption' failed
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0137,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by assumption
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'assumption' failed
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0138,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by assumption
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'assumption' failed
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0139,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by assumption
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'assumption' failed
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+claude,b2_0140,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0141,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0142,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0143,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0144,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0145,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0146,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0147,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0148,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0149,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0150,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0151,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0152,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0153,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0154,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0155,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0156,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0157,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0158,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0159,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+claude,b2_0160,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0161,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0162,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0163,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0164,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0165,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0166,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0167,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0168,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0169,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0170,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0171,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0172,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0173,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0174,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by assumption
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0175,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by assumption
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0176,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by assumption
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0177,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by assumption
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0178,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by assumption
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0179,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by assumption
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+claude,b2_0180,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0181,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0182,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0183,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0184,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0185,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0186,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0187,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0188,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0189,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0190,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0191,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0192,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0193,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0194,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by assumption
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0195,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by assumption
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0196,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by assumption
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0197,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by assumption
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0198,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by assumption
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0199,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by assumption
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+claude,b2_0200,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0201,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0202,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0203,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0204,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0205,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0206,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0207,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0208,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0209,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0210,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0211,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0212,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0213,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0214,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by assumption
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0215,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by assumption
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0216,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by assumption
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0217,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by assumption
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0218,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by assumption
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0219,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by assumption
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+claude,b2_0220,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0221,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0222,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0223,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0224,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0225,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0226,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0227,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0228,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0229,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0230,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0231,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0232,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0233,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0234,"theorem T (l : List Nat) : l.reverse.reverse = l := by assumption
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'assumption' failed
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0235,"theorem T (l : List Nat) : l.reverse.reverse = l := by assumption
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'assumption' failed
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0236,"theorem T (l : List Nat) : l.reverse.reverse = l := by assumption
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'assumption' failed
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0237,"theorem T (l : List Nat) : l.reverse.reverse = l := by assumption
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'assumption' failed
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0238,"theorem T (l : List Nat) : l.reverse.reverse = l := by assumption
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'assumption' failed
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0239,"theorem T (l : List Nat) : l.reverse.reverse = l := by assumption
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'assumption' failed
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+claude,b2_0240,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0241,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0242,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0243,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0244,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0245,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0246,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0247,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0248,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0249,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0250,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0251,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0252,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0253,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0254,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by assumption
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0255,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by assumption
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0256,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by assumption
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0257,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by assumption
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0258,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by assumption
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0259,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by assumption
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+claude,b2_0260,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+claude,b2_0261,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+claude,b2_0262,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+claude,b2_0263,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+claude,b2_0264,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+claude,b2_0265,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+claude,b2_0266,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+claude,b2_0267,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+claude,b2_0268,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+claude,b2_0269,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+claude,b2_0270,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+claude,b2_0271,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+claude,b2_0272,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+claude,b2_0273,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+claude,b2_0274,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+claude,b2_0275,"theorem T : (7 + 3) - 3 = 7 := by decide
+",KEEP,proved,True,
+claude,b2_0276,"theorem T : (7 + 3) - 3 = 7 := by decide
+",KEEP,proved,True,
+claude,b2_0277,"theorem T : (7 + 3) - 3 = 7 := by decide
+",KEEP,proved,True,
+claude,b2_0278,"theorem T : (7 + 3) - 3 = 7 := by decide
+",KEEP,proved,True,
+claude,b2_0279,"theorem T : (7 + 3) - 3 = 7 := by decide
+",KEEP,proved,True,
+claude,b2_0280,"theorem T : (7 + 3) - 3 = 7 := by decide
+",KEEP,proved,True,
+claude,b2_0281,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+claude,b2_0282,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+claude,b2_0283,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+claude,b2_0284,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+claude,b2_0285,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+claude,b2_0286,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+claude,b2_0287,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+claude,b2_0288,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+claude,b2_0289,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+claude,b2_0290,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+claude,b2_0291,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+claude,b2_0292,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+claude,b2_0293,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+claude,b2_0294,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+claude,b2_0295,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+claude,b2_0296,"theorem T : 9 - 4 - 2 = 9 - (4 + 2) := by decide
+",KEEP,proved,True,
+claude,b2_0297,"theorem T : 9 - 4 - 2 = 9 - (4 + 2) := by decide
+",KEEP,proved,True,
+claude,b2_0298,"theorem T : 9 - 4 - 2 = 9 - (4 + 2) := by decide
+",KEEP,proved,True,
+claude,b2_0299,"theorem T : 9 - 4 - 2 = 9 - (4 + 2) := by decide
+",KEEP,proved,True,
+claude,b2_0300,"theorem T : 9 - 4 - 2 = 9 - (4 + 2) := by decide
+",KEEP,proved,True,
+claude,b2_0301,"theorem T : 9 - 4 - 2 = 9 - (4 + 2) := by decide
+",KEEP,proved,True,
+claude,b2_0302,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0303,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0304,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0305,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0306,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0307,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0308,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0309,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0310,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0311,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0312,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0313,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0314,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0315,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0316,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0317,"theorem T : 2 * (7 / 2) ≤ 7 := by decide
+",KEEP,proved,True,
+claude,b2_0318,"theorem T : 2 * (7 / 2) ≤ 7 := by decide
+",KEEP,proved,True,
+claude,b2_0319,"theorem T : 2 * (7 / 2) ≤ 7 := by decide
+",KEEP,proved,True,
+claude,b2_0320,"theorem T : 2 * (7 / 2) ≤ 7 := by decide
+",KEEP,proved,True,
+claude,b2_0321,"theorem T : 2 * (7 / 2) ≤ 7 := by decide
+",KEEP,proved,True,
+claude,b2_0322,"theorem T : 2 * (7 / 2) ≤ 7 := by decide
+",KEEP,proved,True,
+claude,b2_0323,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+claude,b2_0324,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+claude,b2_0325,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+claude,b2_0326,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+claude,b2_0327,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+claude,b2_0328,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+claude,b2_0329,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+claude,b2_0330,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+claude,b2_0331,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+claude,b2_0332,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+claude,b2_0333,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+claude,b2_0334,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+claude,b2_0335,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+claude,b2_0336,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+claude,b2_0337,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+claude,b2_0338,"theorem T : (5 + 1) - 1 = 5 := by decide
+",KEEP,proved,True,
+claude,b2_0339,"theorem T : (5 + 1) - 1 = 5 := by decide
+",KEEP,proved,True,
+claude,b2_0340,"theorem T : (5 + 1) - 1 = 5 := by decide
+",KEEP,proved,True,
+claude,b2_0341,"theorem T : (5 + 1) - 1 = 5 := by decide
+",KEEP,proved,True,
+claude,b2_0342,"theorem T : (5 + 1) - 1 = 5 := by decide
+",KEEP,proved,True,
+claude,b2_0343,"theorem T : (5 + 1) - 1 = 5 := by decide
+",KEEP,proved,True,
+claude,b2_0344,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+claude,b2_0345,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+claude,b2_0346,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+claude,b2_0347,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+claude,b2_0348,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+claude,b2_0349,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+claude,b2_0350,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+claude,b2_0351,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+claude,b2_0352,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+claude,b2_0353,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+claude,b2_0354,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+claude,b2_0355,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+claude,b2_0356,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+claude,b2_0357,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+claude,b2_0358,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+claude,b2_0359,"theorem T : 8 - (8 - 3) = 3 := by decide
+",KEEP,proved,True,
+claude,b2_0360,"theorem T : 8 - (8 - 3) = 3 := by decide
+",KEEP,proved,True,
+claude,b2_0361,"theorem T : 8 - (8 - 3) = 3 := by decide
+",KEEP,proved,True,
+claude,b2_0362,"theorem T : 8 - (8 - 3) = 3 := by decide
+",KEEP,proved,True,
+claude,b2_0363,"theorem T : 8 - (8 - 3) = 3 := by decide
+",KEEP,proved,True,
+claude,b2_0364,"theorem T : 8 - (8 - 3) = 3 := by decide
+",KEEP,proved,True,
+claude,b2_0365,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+claude,b2_0366,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+claude,b2_0367,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+claude,b2_0368,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+claude,b2_0369,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+claude,b2_0370,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+claude,b2_0371,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+claude,b2_0372,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+claude,b2_0373,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+claude,b2_0374,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+claude,b2_0375,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+claude,b2_0376,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+claude,b2_0377,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+claude,b2_0378,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+claude,b2_0379,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+claude,b2_0380,"theorem T : min 4 9 + max 4 9 = 4 + 9 := by decide
+",KEEP,proved,True,
+claude,b2_0381,"theorem T : min 4 9 + max 4 9 = 4 + 9 := by decide
+",KEEP,proved,True,
+claude,b2_0382,"theorem T : min 4 9 + max 4 9 = 4 + 9 := by decide
+",KEEP,proved,True,
+claude,b2_0383,"theorem T : min 4 9 + max 4 9 = 4 + 9 := by decide
+",KEEP,proved,True,
+claude,b2_0384,"theorem T : min 4 9 + max 4 9 = 4 + 9 := by decide
+",KEEP,proved,True,
+claude,b2_0385,"theorem T : min 4 9 + max 4 9 = 4 + 9 := by decide
+",KEEP,proved,True,
+claude,b2_0386,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0387,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0388,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0389,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0390,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0391,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0392,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0393,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0394,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0395,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0396,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0397,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0398,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0399,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0400,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+claude,b2_0401,"theorem T : 10 / 3 * 3 ≤ 10 := by decide
+",KEEP,proved,True,
+claude,b2_0402,"theorem T : 10 / 3 * 3 ≤ 10 := by decide
+",KEEP,proved,True,
+claude,b2_0403,"theorem T : 10 / 3 * 3 ≤ 10 := by decide
+",KEEP,proved,True,
+claude,b2_0404,"theorem T : 10 / 3 * 3 ≤ 10 := by decide
+",KEEP,proved,True,
+claude,b2_0405,"theorem T : 10 / 3 * 3 ≤ 10 := by decide
+",KEEP,proved,True,
+claude,b2_0406,"theorem T : 10 / 3 * 3 ≤ 10 := by decide
+",KEEP,proved,True,
+claude,b2_0407,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+claude,b2_0408,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+claude,b2_0409,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+claude,b2_0410,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+claude,b2_0411,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+claude,b2_0412,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+claude,b2_0413,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+claude,b2_0414,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+claude,b2_0415,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+claude,b2_0416,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+claude,b2_0417,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+claude,b2_0418,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+claude,b2_0419,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+claude,b2_0420,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+claude,b2_0421,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+claude,b2_0422,"theorem T : 11 % 4 + 4 * (11 / 4) = 11 := by decide
+",KEEP,proved,True,
+claude,b2_0423,"theorem T : 11 % 4 + 4 * (11 / 4) = 11 := by decide
+",KEEP,proved,True,
+claude,b2_0424,"theorem T : 11 % 4 + 4 * (11 / 4) = 11 := by decide
+",KEEP,proved,True,
+claude,b2_0425,"theorem T : 11 % 4 + 4 * (11 / 4) = 11 := by decide
+",KEEP,proved,True,
+claude,b2_0426,"theorem T : 11 % 4 + 4 * (11 / 4) = 11 := by decide
+",KEEP,proved,True,
+claude,b2_0427,"theorem T : 11 % 4 + 4 * (11 / 4) = 11 := by decide
+",KEEP,proved,True,
+claude,b2_0428,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0429,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0430,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0431,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0432,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0433,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0434,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0435,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0436,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0437,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0438,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0439,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0440,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0441,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0442,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0443,"theorem T : 5 - 2 < 5 + 1 := by decide
+",KEEP,proved,True,
+claude,b2_0444,"theorem T : 5 - 2 < 5 + 1 := by decide
+",KEEP,proved,True,
+claude,b2_0445,"theorem T : 5 - 2 < 5 + 1 := by decide
+",KEEP,proved,True,
+claude,b2_0446,"theorem T : 5 - 2 < 5 + 1 := by decide
+",KEEP,proved,True,
+claude,b2_0447,"theorem T : 5 - 2 < 5 + 1 := by decide
+",KEEP,proved,True,
+claude,b2_0448,"theorem T : 5 - 2 < 5 + 1 := by decide
+",KEEP,proved,True,
+claude,b2_0449,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0450,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0451,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0452,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0453,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0454,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0455,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0456,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0457,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0458,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0459,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0460,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0461,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0462,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0463,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+claude,b2_0464,"theorem T : (6 + 1) - 2 = (6 - 2) + 1 := by decide
+",KEEP,proved,True,
+claude,b2_0465,"theorem T : (6 + 1) - 2 = (6 - 2) + 1 := by decide
+",KEEP,proved,True,
+claude,b2_0466,"theorem T : (6 + 1) - 2 = (6 - 2) + 1 := by decide
+",KEEP,proved,True,
+claude,b2_0467,"theorem T : (6 + 1) - 2 = (6 - 2) + 1 := by decide
+",KEEP,proved,True,
+claude,b2_0468,"theorem T : (6 + 1) - 2 = (6 - 2) + 1 := by decide
+",KEEP,proved,True,
+claude,b2_0469,"theorem T : (6 + 1) - 2 = (6 - 2) + 1 := by decide
+",KEEP,proved,True,
+claude,b2_0470,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+claude,b2_0471,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+claude,b2_0472,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+claude,b2_0473,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+claude,b2_0474,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+claude,b2_0475,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+claude,b2_0476,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+claude,b2_0477,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+claude,b2_0478,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+claude,b2_0479,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+claude,b2_0480,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+claude,b2_0481,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+claude,b2_0482,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+claude,b2_0483,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+claude,b2_0484,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+claude,b2_0485,"theorem T : ([1, 2] ++ [3]).reverse = [3].reverse ++ [1, 2].reverse := by decide
+",KEEP,proved,True,
+claude,b2_0486,"theorem T : ([1, 2] ++ [3]).reverse = [3].reverse ++ [1, 2].reverse := by decide
+",KEEP,proved,True,
+claude,b2_0487,"theorem T : ([1, 2] ++ [3]).reverse = [3].reverse ++ [1, 2].reverse := by decide
+",KEEP,proved,True,
+claude,b2_0488,"theorem T : ([1, 2] ++ [3]).reverse = [3].reverse ++ [1, 2].reverse := by decide
+",KEEP,proved,True,
+claude,b2_0489,"theorem T : ([1, 2] ++ [3]).reverse = [3].reverse ++ [1, 2].reverse := by decide
+",KEEP,proved,True,
+claude,b2_0490,"theorem T : ([1, 2] ++ [3]).reverse = [3].reverse ++ [1, 2].reverse := by decide
+",KEEP,proved,True,
+claude,b2_0491,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+claude,b2_0492,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+claude,b2_0493,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+claude,b2_0494,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+claude,b2_0495,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+claude,b2_0496,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+claude,b2_0497,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+claude,b2_0498,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+claude,b2_0499,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+claude,b2_0500,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+claude,b2_0501,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+claude,b2_0502,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+claude,b2_0503,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+claude,b2_0504,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+claude,b2_0505,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+claude,b2_0506,"theorem T : ([1, 2] ++ [3, 4, 5]).length = [1, 2].length + [3, 4, 5].length := by decide
+",KEEP,proved,True,
+claude,b2_0507,"theorem T : ([1, 2] ++ [3, 4, 5]).length = [1, 2].length + [3, 4, 5].length := by decide
+",KEEP,proved,True,
+claude,b2_0508,"theorem T : ([1, 2] ++ [3, 4, 5]).length = [1, 2].length + [3, 4, 5].length := by decide
+",KEEP,proved,True,
+claude,b2_0509,"theorem T : ([1, 2] ++ [3, 4, 5]).length = [1, 2].length + [3, 4, 5].length := by decide
+",KEEP,proved,True,
+claude,b2_0510,"theorem T : ([1, 2] ++ [3, 4, 5]).length = [1, 2].length + [3, 4, 5].length := by decide
+",KEEP,proved,True,
+claude,b2_0511,"theorem T : ([1, 2] ++ [3, 4, 5]).length = [1, 2].length + [3, 4, 5].length := by decide
+",KEEP,proved,True,
+claude,b2_0512,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+claude,b2_0513,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+claude,b2_0514,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+claude,b2_0515,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+claude,b2_0516,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+claude,b2_0517,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+claude,b2_0518,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+claude,b2_0519,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+claude,b2_0520,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+claude,b2_0521,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+claude,b2_0522,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+claude,b2_0523,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+claude,b2_0524,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+claude,b2_0525,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+claude,b2_0526,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+claude,b2_0527,"theorem T : [1, 2, 3].reverse.reverse = [1, 2, 3] := by decide
+",KEEP,proved,True,
+claude,b2_0528,"theorem T : [1, 2, 3].reverse.reverse = [1, 2, 3] := by decide
+",KEEP,proved,True,
+claude,b2_0529,"theorem T : [1, 2, 3].reverse.reverse = [1, 2, 3] := by decide
+",KEEP,proved,True,
+claude,b2_0530,"theorem T : [1, 2, 3].reverse.reverse = [1, 2, 3] := by decide
+",KEEP,proved,True,
+claude,b2_0531,"theorem T : [1, 2, 3].reverse.reverse = [1, 2, 3] := by decide
+",KEEP,proved,True,
+claude,b2_0532,"theorem T : [1, 2, 3].reverse.reverse = [1, 2, 3] := by decide
+",KEEP,proved,True,
+claude,b2_0533,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+claude,b2_0534,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+claude,b2_0535,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+claude,b2_0536,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+claude,b2_0537,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+claude,b2_0538,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+claude,b2_0539,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+claude,b2_0540,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+claude,b2_0541,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+claude,b2_0542,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+claude,b2_0543,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+claude,b2_0544,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+claude,b2_0545,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+claude,b2_0546,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+claude,b2_0547,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+claude,b2_0548,"theorem T : ([1, 2, 3].map (fun x => x + 1)).length = [1, 2, 3].length := by decide
+",KEEP,proved,True,
+claude,b2_0549,"theorem T : ([1, 2, 3].map (fun x => x + 1)).length = [1, 2, 3].length := by decide
+",KEEP,proved,True,
+claude,b2_0550,"theorem T : ([1, 2, 3].map (fun x => x + 1)).length = [1, 2, 3].length := by decide
+",KEEP,proved,True,
+claude,b2_0551,"theorem T : ([1, 2, 3].map (fun x => x + 1)).length = [1, 2, 3].length := by decide
+",KEEP,proved,True,
+claude,b2_0552,"theorem T : ([1, 2, 3].map (fun x => x + 1)).length = [1, 2, 3].length := by decide
+",KEEP,proved,True,
+claude,b2_0553,"theorem T : ([1, 2, 3].map (fun x => x + 1)).length = [1, 2, 3].length := by decide
+",KEEP,proved,True,
+other,gpt_0000,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+other,gpt_0001,"theorem T (a b : Nat) : (a - b) + b = a := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:46: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  c ≥ 0
+  c - d ≥ 1
+where
+ c := ↑b
+ d := ↑a
+"
+other,gpt_0002,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+other,gpt_0003,"theorem T (a b : Nat) : (a - b) + b = a := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:46: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  c ≥ 0
+  c - d ≥ 1
+where
+ c := ↑b
+ d := ↑a
+"
+other,gpt_0004,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+other,gpt_0005,"theorem T (a b : Nat) : (a - b) + b = a := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:46: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  c ≥ 0
+  c - d ≥ 1
+where
+ c := ↑b
+ d := ↑a
+"
+other,gpt_0006,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+other,gpt_0007,"theorem T (a b c : Nat) : a - (b - c) = a - b + c := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:56: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  f ≥ 0
+  e ≥ 0
+  e - f ≤ 0
+  e ≥ 0
+  d ≥ 0
+  d - e ≥ 0
+  d - f ≤ -1
+where
+ d := ↑a
+ e := ↑(b - c)
+ f := ↑b
+"
+other,gpt_0008,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+other,gpt_0009,"theorem T (a b c : Nat) : a - (b - c) = a - b + c := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:56: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  f ≥ 0
+  e ≥ 0
+  e - f ≤ 0
+  e ≥ 0
+  d ≥ 0
+  d - e ≥ 0
+  d - f ≤ -1
+where
+ d := ↑a
+ e := ↑(b - c)
+ f := ↑b
+"
+other,gpt_0010,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+other,gpt_0011,"theorem T (a b c : Nat) : a - (b - c) = a - b + c := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:56: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  f ≥ 0
+  e ≥ 0
+  e - f ≤ 0
+  e ≥ 0
+  d ≥ 0
+  d - e ≥ 0
+  d - f ≤ -1
+where
+ d := ↑a
+ e := ↑(b - c)
+ f := ↑b
+"
+other,gpt_0012,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+other,gpt_0013,"theorem T (n : Nat) : 2 * (n / 2) = n := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:44: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  a ≥ 0
+where
+ a := ↑n / 2
+"
+other,gpt_0014,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+other,gpt_0015,"theorem T (n : Nat) : 2 * (n / 2) = n := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:44: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  a ≥ 0
+where
+ a := ↑n / 2
+"
+other,gpt_0016,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+other,gpt_0017,"theorem T (n : Nat) : 2 * (n / 2) = n := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:44: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  a ≥ 0
+where
+ a := ↑n / 2
+"
+other,gpt_0018,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+other,gpt_0019,"theorem T (n : Nat) : (n - 1) + 1 = n := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:44: error: omega could not prove the goal:
+No usable constraints found. You may need to unfold definitions so `omega` can see linear arithmetic facts about `Nat` and `Int`, which may also involve multiplication, division, and modular remainder by constants.
+"
+other,gpt_0020,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+other,gpt_0021,"theorem T (n : Nat) : (n - 1) + 1 = n := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:44: error: omega could not prove the goal:
+No usable constraints found. You may need to unfold definitions so `omega` can see linear arithmetic facts about `Nat` and `Int`, which may also involve multiplication, division, and modular remainder by constants.
+"
+other,gpt_0022,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+other,gpt_0023,"theorem T (n : Nat) : (n - 1) + 1 = n := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:44: error: omega could not prove the goal:
+No usable constraints found. You may need to unfold definitions so `omega` can see linear arithmetic facts about `Nat` and `Int`, which may also involve multiplication, division, and modular remainder by constants.
+"
+other,gpt_0024,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+other,gpt_0025,"theorem T (a b : Nat) : a - (a - b) = b := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:46: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  d ≥ 0
+  c ≥ 0
+  c - d ≥ 1
+  c - d ≥ 1
+where
+ c := ↑b
+ d := ↑a
+"
+other,gpt_0026,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+other,gpt_0027,"theorem T (a b : Nat) : a - (a - b) = b := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:46: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  d ≥ 0
+  c ≥ 0
+  c - d ≥ 1
+  c - d ≥ 1
+where
+ c := ↑b
+ d := ↑a
+"
+other,gpt_0028,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+other,gpt_0029,"theorem T (a b : Nat) : a - (a - b) = b := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:46: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  d ≥ 0
+  c ≥ 0
+  c - d ≥ 1
+  c - d ≥ 1
+where
+ c := ↑b
+ d := ↑a
+"
+other,gpt_0030,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+other,gpt_0031,"theorem T (a b : Nat) : min a b + max a b = 2 * a := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:56: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  c ≥ 0
+  c - d ≥ 1
+where
+ c := if ↑a ≤ ↑b then ↑b else ↑a
+ d := ↑b
+"
+other,gpt_0032,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+other,gpt_0033,"theorem T (a b : Nat) : min a b + max a b = 2 * a := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:56: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  c ≥ 0
+  c - d ≥ 1
+where
+ c := if ↑a ≤ ↑b then ↑b else ↑a
+ d := ↑b
+"
+other,gpt_0034,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+other,gpt_0035,"theorem T (a b : Nat) : min a b + max a b = 2 * a := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:56: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  c ≥ 0
+  c - d ≥ 1
+where
+ c := if ↑a ≤ ↑b then ↑b else ↑a
+ d := ↑b
+"
+other,gpt_0036,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+other,gpt_0037,"theorem T (n : Nat) : n / 3 * 3 = n := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:42: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  b ≥ 0
+  a ≥ 0
+  1 ≤ a - 3*b ≤ 2
+where
+ a := ↑n
+ b := ↑n / 3
+"
+other,gpt_0038,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+other,gpt_0039,"theorem T (n : Nat) : n / 3 * 3 = n := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:42: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  b ≥ 0
+  a ≥ 0
+  1 ≤ a - 3*b ≤ 2
+where
+ a := ↑n
+ b := ↑n / 3
+"
+other,gpt_0040,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+other,gpt_0041,"theorem T (n : Nat) : n / 3 * 3 = n := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:42: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  b ≥ 0
+  a ≥ 0
+  1 ≤ a - 3*b ≤ 2
+where
+ a := ↑n
+ b := ↑n / 3
+"
+other,gpt_0042,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+other,gpt_0043,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n + 1 := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:56: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  b ≥ 0
+  a ≥ 0
+  0 ≤ a - 4*b ≤ 3
+where
+ a := ↑n
+ b := ↑n / 4
+"
+other,gpt_0044,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+other,gpt_0045,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n + 1 := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:56: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  b ≥ 0
+  a ≥ 0
+  0 ≤ a - 4*b ≤ 3
+where
+ a := ↑n
+ b := ↑n / 4
+"
+other,gpt_0046,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+other,gpt_0047,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n + 1 := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:56: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  b ≥ 0
+  a ≥ 0
+  0 ≤ a - 4*b ≤ 3
+where
+ a := ↑n
+ b := ↑n / 4
+"
+other,gpt_0048,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+other,gpt_0049,"theorem T (a b : Nat) : a - b < a := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:40: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  c ≥ 0
+  c ≥ 0
+where
+ c := ↑a
+"
+other,gpt_0050,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+other,gpt_0051,"theorem T (a b : Nat) : a - b < a := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:40: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  c ≥ 0
+  c ≥ 0
+where
+ c := ↑a
+"
+other,gpt_0052,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+other,gpt_0053,"theorem T (a b : Nat) : a - b < a := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:40: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  c ≥ 0
+  c ≥ 0
+where
+ c := ↑a
+"
+other,gpt_0054,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+other,gpt_0055,"theorem T (a b : Nat) : (a+1) - b = (a - b) + 1 := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:54: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  c ≥ 0
+where
+ c := ↑a
+"
+other,gpt_0056,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+other,gpt_0057,"theorem T (a b : Nat) : (a+1) - b = (a - b) + 1 := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:54: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  c ≥ 0
+where
+ c := ↑a
+"
+other,gpt_0058,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+other,gpt_0059,"theorem T (a b : Nat) : (a+1) - b = (a - b) + 1 := by omega
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:54: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  c ≥ 0
+where
+ c := ↑a
+"
+other,gpt_0060,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+other,gpt_0061,"theorem T (l m : List Nat) : (l ++ m).reverse = l.reverse ++ m.reverse := by simp
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:74: error: unsolved goals
+l m : List Nat
+⊢ m.reverse ++ l.reverse = l.reverse ++ m.reverse
+"
+other,gpt_0062,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+other,gpt_0063,"theorem T (l m : List Nat) : (l ++ m).reverse = l.reverse ++ m.reverse := by simp
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:74: error: unsolved goals
+l m : List Nat
+⊢ m.reverse ++ l.reverse = l.reverse ++ m.reverse
+"
+other,gpt_0064,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+other,gpt_0065,"theorem T (l m : List Nat) : (l ++ m).reverse = l.reverse ++ m.reverse := by simp
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:74: error: unsolved goals
+l m : List Nat
+⊢ m.reverse ++ l.reverse = l.reverse ++ m.reverse
+"
+other,gpt_0066,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+other,gpt_0067,"theorem T (l m : List Nat) : (l ++ m).length = l.length * m.length := by simp
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:70: error: unsolved goals
+l m : List Nat
+⊢ l.length + m.length = l.length * m.length
+"
+other,gpt_0068,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+other,gpt_0069,"theorem T (l m : List Nat) : (l ++ m).length = l.length * m.length := by simp
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:70: error: unsolved goals
+l m : List Nat
+⊢ l.length + m.length = l.length * m.length
+"
+other,gpt_0070,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+other,gpt_0071,"theorem T (l m : List Nat) : (l ++ m).length = l.length * m.length := by simp
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:70: error: unsolved goals
+l m : List Nat
+⊢ l.length + m.length = l.length * m.length
+"
+other,gpt_0072,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+other,gpt_0073,"theorem T (l : List Nat) : l.reverse = l := by simp
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:47: error: simp made no progress
+"
+other,gpt_0074,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+other,gpt_0075,"theorem T (l : List Nat) : l.reverse = l := by simp
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:47: error: simp made no progress
+"
+other,gpt_0076,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+other,gpt_0077,"theorem T (l : List Nat) : l.reverse = l := by simp
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:47: error: simp made no progress
+"
+other,gpt_0078,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+other,gpt_0079,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length + 1 := by simp
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:78: error: unsolved goals
+l : List Nat
+f : Nat → Nat
+⊢ False
+"
+other,gpt_0080,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+other,gpt_0081,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length + 1 := by simp
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:78: error: unsolved goals
+l : List Nat
+f : Nat → Nat
+⊢ False
+"
+other,gpt_0082,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+other,gpt_0083,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length + 1 := by simp
+",REJECT_UNPROVABLE,failed,True,"submission.lean:1:78: error: unsolved goals
+l : List Nat
+f : Nat → Nat
+⊢ False
+"
+other,gpt_0084,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+other,gpt_0085,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+other,gpt_0086,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+other,gpt_0087,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+other,gpt_0088,"theorem T (a b : Nat) : (a + b) - b = a := by assumption
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'assumption' failed
+a b : Nat
+⊢ a + b - b = a
+"
+other,gpt_0089,"theorem T (a b : Nat) : (a + b) - b = a := by assumption
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'assumption' failed
+a b : Nat
+⊢ a + b - b = a
+"
+other,gpt_0090,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+other,gpt_0091,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+other,gpt_0092,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+other,gpt_0093,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+other,gpt_0094,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+other,gpt_0095,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+other,gpt_0096,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+other,gpt_0097,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+other,gpt_0098,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+other,gpt_0099,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+other,gpt_0100,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by assumption
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'assumption' failed
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+other,gpt_0101,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by assumption
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'assumption' failed
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+other,gpt_0102,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+other,gpt_0103,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+other,gpt_0104,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+other,gpt_0105,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+other,gpt_0106,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by assumption
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+other,gpt_0107,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by assumption
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+other,gpt_0108,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+other,gpt_0109,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+other,gpt_0110,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+other,gpt_0111,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+other,gpt_0112,"theorem T (a b : Nat) : min a b + max a b = a + b := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+other,gpt_0113,"theorem T (a b : Nat) : min a b + max a b = a + b := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+other,gpt_0114,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+other,gpt_0115,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+other,gpt_0116,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+other,gpt_0117,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+other,gpt_0118,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by assumption
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'assumption' failed
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+other,gpt_0119,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by assumption
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'assumption' failed
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+other,gpt_0120,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+other,gpt_0121,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+other,gpt_0122,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+other,gpt_0123,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+other,gpt_0124,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by assumption
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'assumption' failed
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+other,gpt_0125,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by assumption
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'assumption' failed
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+other,gpt_0126,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+other,gpt_0127,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+other,gpt_0128,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+other,gpt_0129,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+other,gpt_0130,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+other,gpt_0131,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by assumption
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+other,gpt_0132,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+other,gpt_0133,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+other,gpt_0134,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+other,gpt_0135,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+other,gpt_0136,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by assumption
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+other,gpt_0137,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by assumption
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+other,gpt_0138,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+other,gpt_0139,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+other,gpt_0140,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+other,gpt_0141,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+other,gpt_0142,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by assumption
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+other,gpt_0143,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by assumption
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+other,gpt_0144,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+other,gpt_0145,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+other,gpt_0146,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+other,gpt_0147,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+other,gpt_0148,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by assumption
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+other,gpt_0149,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by assumption
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+other,gpt_0150,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+other,gpt_0151,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+other,gpt_0152,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+other,gpt_0153,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+other,gpt_0154,"theorem T (l : List Nat) : l.reverse.reverse = l := by assumption
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'assumption' failed
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+other,gpt_0155,"theorem T (l : List Nat) : l.reverse.reverse = l := by assumption
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'assumption' failed
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+other,gpt_0156,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+other,gpt_0157,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+other,gpt_0158,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+other,gpt_0159,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+other,gpt_0160,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by assumption
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+other,gpt_0161,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by assumption
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+other,gpt_0162,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+other,gpt_0163,"theorem T (a b : Nat) : (a + b) - b = a := by omega
+",KEEP,proved,True,
+other,gpt_0164,"theorem T : (7 + 3) - 3 = 7 := by decide
+",KEEP,proved,True,
+other,gpt_0165,"theorem T : (7 + 3) - 3 = 7 := by decide
+",KEEP,proved,True,
+other,gpt_0166,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+other,gpt_0167,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega
+",KEEP,proved,True,
+other,gpt_0168,"theorem T : 9 - 4 - 2 = 9 - (4 + 2) := by decide
+",KEEP,proved,True,
+other,gpt_0169,"theorem T : 9 - 4 - 2 = 9 - (4 + 2) := by decide
+",KEEP,proved,True,
+other,gpt_0170,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+other,gpt_0171,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega
+",KEEP,proved,True,
+other,gpt_0172,"theorem T : 2 * (7 / 2) ≤ 7 := by decide
+",KEEP,proved,True,
+other,gpt_0173,"theorem T : 2 * (7 / 2) ≤ 7 := by decide
+",KEEP,proved,True,
+other,gpt_0174,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+other,gpt_0175,"theorem T (n : Nat) : (n + 1) - 1 = n := by omega
+",KEEP,proved,True,
+other,gpt_0176,"theorem T : (5 + 1) - 1 = 5 := by decide
+",KEEP,proved,True,
+other,gpt_0177,"theorem T : (5 + 1) - 1 = 5 := by decide
+",KEEP,proved,True,
+other,gpt_0178,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+other,gpt_0179,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega
+",KEEP,proved,True,
+other,gpt_0180,"theorem T : 8 - (8 - 3) = 3 := by decide
+",KEEP,proved,True,
+other,gpt_0181,"theorem T : 8 - (8 - 3) = 3 := by decide
+",KEEP,proved,True,
+other,gpt_0182,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+other,gpt_0183,"theorem T (a b : Nat) : min a b + max a b = a + b := by omega
+",KEEP,proved,True,
+other,gpt_0184,"theorem T : min 4 9 + max 4 9 = 4 + 9 := by decide
+",KEEP,proved,True,
+other,gpt_0185,"theorem T : min 4 9 + max 4 9 = 4 + 9 := by decide
+",KEEP,proved,True,
+other,gpt_0186,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+other,gpt_0187,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega
+",KEEP,proved,True,
+other,gpt_0188,"theorem T : 10 / 3 * 3 ≤ 10 := by decide
+",KEEP,proved,True,
+other,gpt_0189,"theorem T : 10 / 3 * 3 ≤ 10 := by decide
+",KEEP,proved,True,
+other,gpt_0190,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+other,gpt_0191,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega
+",KEEP,proved,True,
+other,gpt_0192,"theorem T : 11 % 4 + 4 * (11 / 4) = 11 := by decide
+",KEEP,proved,True,
+other,gpt_0193,"theorem T : 11 % 4 + 4 * (11 / 4) = 11 := by decide
+",KEEP,proved,True,
+other,gpt_0194,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+other,gpt_0195,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega
+",KEEP,proved,True,
+other,gpt_0196,"theorem T : 5 - 2 < 5 + 1 := by decide
+",KEEP,proved,True,
+other,gpt_0197,"theorem T : 5 - 2 < 5 + 1 := by decide
+",KEEP,proved,True,
+other,gpt_0198,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+other,gpt_0199,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega
+",KEEP,proved,True,
+other,gpt_0200,"theorem T : (6 + 1) - 2 = (6 - 2) + 1 := by decide
+",KEEP,proved,True,
+other,gpt_0201,"theorem T : (6 + 1) - 2 = (6 - 2) + 1 := by decide
+",KEEP,proved,True,
+other,gpt_0202,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+other,gpt_0203,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp
+",KEEP,proved,True,
+other,gpt_0204,"theorem T : ([1, 2] ++ [3]).reverse = [3].reverse ++ [1, 2].reverse := by decide
+",KEEP,proved,True,
+other,gpt_0205,"theorem T : ([1, 2] ++ [3]).reverse = [3].reverse ++ [1, 2].reverse := by decide
+",KEEP,proved,True,
+other,gpt_0206,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+other,gpt_0207,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp
+",KEEP,proved,True,
+other,gpt_0208,"theorem T : ([1, 2] ++ [3, 4, 5]).length = [1, 2].length + [3, 4, 5].length := by decide
+",KEEP,proved,True,
+other,gpt_0209,"theorem T : ([1, 2] ++ [3, 4, 5]).length = [1, 2].length + [3, 4, 5].length := by decide
+",KEEP,proved,True,
+other,gpt_0210,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+other,gpt_0211,"theorem T (l : List Nat) : l.reverse.reverse = l := by simp
+",KEEP,proved,True,
+other,gpt_0212,"theorem T : [1, 2, 3].reverse.reverse = [1, 2, 3] := by decide
+",KEEP,proved,True,
+other,gpt_0213,"theorem T : [1, 2, 3].reverse.reverse = [1, 2, 3] := by decide
+",KEEP,proved,True,
+other,gpt_0214,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+other,gpt_0215,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp
+",KEEP,proved,True,
+other,gpt_0216,"theorem T : ([1, 2, 3].map (fun x => x + 1)).length = [1, 2, 3].length := by decide
+",KEEP,proved,True,
+other,gpt_0217,"theorem T : ([1, 2, 3].map (fun x => x + 1)).length = [1, 2, 3].length := by decide
+",KEEP,proved,True,
+other,gpt_0218,"theorem T (a b : Nat) : (a + b) - b = a := by rfl
+",REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+other,gpt_0219,"theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+other,gpt_0220,"theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+other,gpt_0221,"theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl
+",REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+other,gpt_0222,"theorem T (a b : Nat) : min a b + max a b = a + b := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+other,gpt_0223,"theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl
+",REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+other,gpt_0224,"theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl
+",REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+other,gpt_0225,"theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+other,gpt_0226,"theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl
+",REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+other,gpt_0227,"theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+other,gpt_0228,"theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl
+",REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+other,gpt_0229,"theorem T (l : List Nat) : l.reverse.reverse = l := by rfl
+",REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+other,gpt_0230,"theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl
+",REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+original,sub_add_cancel_true,theorem T (a b : Nat) : (a + b) - b = a := by omega,KEEP,proved,True,
+original,sub_add_cancel_false,theorem T (a b : Nat) : (a - b) + b = a := by omega,REJECT_UNPROVABLE,failed,True,"submission.lean:1:46: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  c ≥ 0
+  c - d ≥ 1
+where
+ c := ↑b
+ d := ↑a
+"
+original_rfl,sub_add_cancel,theorem T (a b : Nat) : (a + b) - b = a := by rfl,REVISE,failed,True,"submission.lean:1:46: error: tactic 'rfl' failed, the left-hand side
+  a + b - b
+is not definitionally equal to the right-hand side
+  a
+a b : Nat
+⊢ a + b - b = a
+"
+original_assumption,sub_add_cancel,theorem T (a b : Nat) : (a + b) - b = a := by assumption,REVISE,failed,True,"submission.lean:1:46: error: tactic 'assumption' failed
+a b : Nat
+⊢ a + b - b = a
+"
+original,sub_sub_assoc_true,theorem T (a b c : Nat) : a - b - c = a - (b + c) := by omega,KEEP,proved,True,
+original,sub_sub_assoc_false,theorem T (a b c : Nat) : a - (b - c) = a - b + c := by omega,REJECT_UNPROVABLE,failed,True,"submission.lean:1:56: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  f ≥ 0
+  e ≥ 0
+  e - f ≤ 0
+  e ≥ 0
+  d ≥ 0
+  d - e ≥ 0
+  d - f ≤ -1
+where
+ d := ↑a
+ e := ↑(b - c)
+ f := ↑b
+"
+original_rfl,sub_sub_assoc,theorem T (a b c : Nat) : a - b - c = a - (b + c) := by rfl,REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b - c
+is not definitionally equal to the right-hand side
+  a - (b + c)
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+original_assumption,sub_sub_assoc,theorem T (a b c : Nat) : a - b - c = a - (b + c) := by assumption,REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b c : Nat
+⊢ a - b - c = a - (b + c)
+"
+original,div_two_le_true,theorem T (n : Nat) : 2 * (n / 2) ≤ n := by omega,KEEP,proved,True,
+original,div_two_le_false,theorem T (n : Nat) : 2 * (n / 2) = n := by omega,REJECT_UNPROVABLE,failed,True,"submission.lean:1:44: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  a ≥ 0
+where
+ a := ↑n / 2
+"
+original_rfl,div_two_le,theorem T (n : Nat) : 2 * (n / 2) ≤ n := by rfl,REVISE,failed,True,"submission.lean:1:44: error: tactic 'rfl' failed, the left-hand side
+  2 * (n / 2)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+original_assumption,div_two_le,theorem T (n : Nat) : 2 * (n / 2) ≤ n := by assumption,REVISE,failed,True,"submission.lean:1:44: error: tactic 'assumption' failed
+n : Nat
+⊢ 2 * (n / 2) ≤ n
+"
+original,pred_succ_true,theorem T (n : Nat) : (n + 1) - 1 = n := by omega,KEEP,proved,True,
+original,pred_succ_false,theorem T (n : Nat) : (n - 1) + 1 = n := by omega,REJECT_UNPROVABLE,failed,True,"submission.lean:1:44: error: omega could not prove the goal:
+No usable constraints found. You may need to unfold definitions so `omega` can see linear arithmetic facts about `Nat` and `Int`, which may also involve multiplication, division, and modular remainder by constants.
+"
+original_rfl,pred_succ,theorem T (n : Nat) : (n + 1) - 1 = n := by rfl,KEEP,proved,True,
+original_assumption,pred_succ,theorem T (n : Nat) : (n + 1) - 1 = n := by assumption,REVISE,failed,True,"submission.lean:1:44: error: tactic 'assumption' failed
+n : Nat
+⊢ n + 1 - 1 = n
+"
+original,sub_self_sub_true,theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by omega,KEEP,proved,True,
+original,sub_self_sub_false,theorem T (a b : Nat) : a - (a - b) = b := by omega,REJECT_UNPROVABLE,failed,True,"submission.lean:1:46: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  d ≥ 0
+  c ≥ 0
+  c - d ≥ 1
+  c - d ≥ 1
+where
+ c := ↑b
+ d := ↑a
+"
+original_rfl,sub_self_sub,theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by rfl,REVISE,failed,True,"submission.lean:1:58: error: tactic 'rfl' failed, the left-hand side
+  a - (a - b)
+is not definitionally equal to the right-hand side
+  b
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+original_assumption,sub_self_sub,theorem T (a b : Nat) (h : b ≤ a) : a - (a - b) = b := by assumption,REVISE,failed,True,"submission.lean:1:58: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a - (a - b) = b
+"
+original,minmax_sum_true,theorem T (a b : Nat) : min a b + max a b = a + b := by omega,KEEP,proved,True,
+original,minmax_sum_false,theorem T (a b : Nat) : min a b + max a b = 2 * a := by omega,REJECT_UNPROVABLE,failed,True,"submission.lean:1:56: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  c ≥ 0
+  c - d ≥ 1
+where
+ c := if ↑a ≤ ↑b then ↑b else ↑a
+ d := ↑b
+"
+original_rfl,minmax_sum,theorem T (a b : Nat) : min a b + max a b = a + b := by rfl,REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  min a b + max a b
+is not definitionally equal to the right-hand side
+  a + b
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+original_assumption,minmax_sum,theorem T (a b : Nat) : min a b + max a b = a + b := by assumption,REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+⊢ min a b + max a b = a + b
+"
+original,div_mul_le_true,theorem T (n : Nat) : n / 3 * 3 ≤ n := by omega,KEEP,proved,True,
+original,div_mul_le_false,theorem T (n : Nat) : n / 3 * 3 = n := by omega,REJECT_UNPROVABLE,failed,True,"submission.lean:1:42: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  b ≥ 0
+  a ≥ 0
+  1 ≤ a - 3*b ≤ 2
+where
+ a := ↑n
+ b := ↑n / 3
+"
+original_rfl,div_mul_le,theorem T (n : Nat) : n / 3 * 3 ≤ n := by rfl,REVISE,failed,True,"submission.lean:1:42: error: tactic 'rfl' failed, the left-hand side
+  n / 3 * 3
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+original_assumption,div_mul_le,theorem T (n : Nat) : n / 3 * 3 ≤ n := by assumption,REVISE,failed,True,"submission.lean:1:42: error: tactic 'assumption' failed
+n : Nat
+⊢ n / 3 * 3 ≤ n
+"
+original,mod_add_div_true,theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by omega,KEEP,proved,True,
+original,mod_add_div_false,theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n + 1 := by omega,REJECT_UNPROVABLE,failed,True,"submission.lean:1:56: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  b ≥ 0
+  a ≥ 0
+  0 ≤ a - 4*b ≤ 3
+where
+ a := ↑n
+ b := ↑n / 4
+"
+original_rfl,mod_add_div,theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by rfl,REVISE,failed,True,"submission.lean:1:52: error: tactic 'rfl' failed, the left-hand side
+  n % 4 + 4 * (n / 4)
+is not definitionally equal to the right-hand side
+  n
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+original_assumption,mod_add_div,theorem T (n : Nat) : n % 4 + 4 * (n / 4) = n := by assumption,REVISE,failed,True,"submission.lean:1:52: error: tactic 'assumption' failed
+n : Nat
+⊢ n % 4 + 4 * (n / 4) = n
+"
+original,sub_lt_self_true,theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by omega,KEEP,proved,True,
+original,sub_lt_self_false,theorem T (a b : Nat) : a - b < a := by omega,REJECT_UNPROVABLE,failed,True,"submission.lean:1:40: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  c ≥ 0
+  c ≥ 0
+where
+ c := ↑a
+"
+original_rfl,sub_lt_self,theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by rfl,REVISE,failed,True,"submission.lean:1:56: error: tactic 'rfl' failed, the left-hand side
+  a - b
+is not definitionally equal to the right-hand side
+  a + 1
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+original_assumption,sub_lt_self,theorem T (a b : Nat) (h : 0 < a) : a - b < a + 1 := by assumption,REVISE,failed,True,"submission.lean:1:56: error: tactic 'assumption' failed
+a b : Nat
+h : 0 < a
+⊢ a - b < a + 1
+"
+original,succ_sub_true,theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by omega,KEEP,proved,True,
+original,succ_sub_false,theorem T (a b : Nat) : (a+1) - b = (a - b) + 1 := by omega,REJECT_UNPROVABLE,failed,True,"submission.lean:1:54: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  c ≥ 0
+where
+ c := ↑a
+"
+original_rfl,succ_sub,theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by rfl,REVISE,failed,True,"submission.lean:1:66: error: tactic 'rfl' failed, the left-hand side
+  a + 1 - b
+is not definitionally equal to the right-hand side
+  a - b + 1
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+original_assumption,succ_sub,theorem T (a b : Nat) (h : b ≤ a) : (a+1) - b = (a - b) + 1 := by assumption,REVISE,failed,True,"submission.lean:1:66: error: tactic 'assumption' failed
+a b : Nat
+h : b ≤ a
+⊢ a + 1 - b = a - b + 1
+"
+original,rev_append_true,theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by simp,KEEP,proved,True,
+original,rev_append_false,theorem T (l m : List Nat) : (l ++ m).reverse = l.reverse ++ m.reverse := by simp,REJECT_UNPROVABLE,failed,True,"submission.lean:1:74: error: unsolved goals
+l m : List Nat
+⊢ m.reverse ++ l.reverse = l.reverse ++ m.reverse
+"
+original_rfl,rev_append,theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by rfl,REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).reverse
+is not definitionally equal to the right-hand side
+  m.reverse ++ l.reverse
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+original_assumption,rev_append,theorem T (l m : List Nat) : (l ++ m).reverse = m.reverse ++ l.reverse := by assumption,REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).reverse = m.reverse ++ l.reverse
+"
+original,len_append_true,theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by simp,KEEP,proved,True,
+original,len_append_false,theorem T (l m : List Nat) : (l ++ m).length = l.length * m.length := by simp,REJECT_UNPROVABLE,failed,True,"submission.lean:1:70: error: unsolved goals
+l m : List Nat
+⊢ l.length + m.length = l.length * m.length
+"
+original_rfl,len_append,theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by rfl,REVISE,failed,True,"submission.lean:1:73: error: tactic 'rfl' failed, the left-hand side
+  (l ++ m).length
+is not definitionally equal to the right-hand side
+  l.length + m.length
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+original_assumption,len_append,theorem T (l m : List Nat) : (l ++ m).length = l.length + m.length := by assumption,REVISE,failed,True,"submission.lean:1:73: error: tactic 'assumption' failed
+l m : List Nat
+⊢ (l ++ m).length = l.length + m.length
+"
+original,rev_rev_true,theorem T (l : List Nat) : l.reverse.reverse = l := by simp,KEEP,proved,True,
+original,rev_rev_false,theorem T (l : List Nat) : l.reverse = l := by simp,REJECT_UNPROVABLE,failed,True,"submission.lean:1:47: error: simp made no progress
+"
+original_rfl,rev_rev,theorem T (l : List Nat) : l.reverse.reverse = l := by rfl,REVISE,failed,True,"submission.lean:1:55: error: tactic 'rfl' failed, the left-hand side
+  l.reverse.reverse
+is not definitionally equal to the right-hand side
+  l
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+original_assumption,rev_rev,theorem T (l : List Nat) : l.reverse.reverse = l := by assumption,REVISE,failed,True,"submission.lean:1:55: error: tactic 'assumption' failed
+l : List Nat
+⊢ l.reverse.reverse = l
+"
+original,map_len_true,theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by simp,KEEP,proved,True,
+original,map_len_false,theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length + 1 := by simp,REJECT_UNPROVABLE,failed,True,"submission.lean:1:78: error: unsolved goals
+l : List Nat
+f : Nat → Nat
+⊢ False
+"
+original_rfl,map_len,theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by rfl,REVISE,failed,True,"submission.lean:1:77: error: tactic 'rfl' failed, the left-hand side
+  (List.map f l).length
+is not definitionally equal to the right-hand side
+  l.length
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+original_assumption,map_len,theorem T (l : List Nat) (f : Nat → Nat) : (l.map f).length = l.length := by assumption,REVISE,failed,True,"submission.lean:1:77: error: tactic 'assumption' failed
+l : List Nat
+f : Nat → Nat
+⊢ (List.map f l).length = l.length
+"
+counterexample,sub_add_cancel,example : ¬ ((0:Nat)-1+1=0) := by decide,KEEP,proved,True,
+counterexample,sub_sub_assoc,example : ¬ ((0:Nat)-(0-1)=0-0+1) := by decide,KEEP,proved,True,
+counterexample,div_two_le,example : ¬ (2*((1:Nat)/2)=1) := by decide,KEEP,proved,True,
+counterexample,pred_succ,example : ¬ ((0:Nat)-1+1=0) := by decide,KEEP,proved,True,
+counterexample,sub_self_sub,example : ¬ ((0:Nat)-(0-1)=1) := by decide,KEEP,proved,True,
+counterexample,minmax_sum,example : ¬ (min (0:Nat) 1+max 0 1=2*0) := by decide,KEEP,proved,True,
+counterexample,div_mul_le,example : ¬ ((1:Nat)/3*3=1) := by decide,KEEP,proved,True,
+counterexample,mod_add_div,example : ¬ ((0:Nat)%4+4*(0/4)=0+1) := by decide,KEEP,proved,True,
+counterexample,sub_lt_self,example : ¬ ((0:Nat)-0<0) := by decide,KEEP,proved,True,
+counterexample,succ_sub,example : ¬ (((0:Nat)+1)-1=(0-1)+1) := by decide,KEEP,proved,True,
+counterexample,rev_append,example : ¬ ((([1] ++ [2]):List Nat).reverse=[1].reverse++[2].reverse) := by decide,KEEP,proved,True,
+counterexample,len_append,example : ¬ ((([1] ++ [2]):List Nat).length=[1].length*[2].length) := by decide,KEEP,proved,True,
+counterexample,rev_rev,"example : ¬ (([1,2]:List Nat).reverse=[1,2]) := by decide",KEEP,proved,True,
+counterexample,map_len,example : ¬ ((([1]:List Nat).map (fun x => x+1)).length=([1]:List Nat).length+1) := by decide,KEEP,proved,True,

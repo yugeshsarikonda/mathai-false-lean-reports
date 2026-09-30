@@ -1,0 +1,22 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.lake/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Scratch runs, temporary files and operating-system files
+runs/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

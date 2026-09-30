@@ -1,0 +1,73 @@
+{
+  "raw_records": {
+    "claude": 554,
+    "other_providers": 924
+  },
+  "frozen_prompts": {
+    "claude": 554,
+    "other_providers": 231
+  },
+  "final_outcomes": {
+    "claude": 425,
+    "other_providers": 527
+  },
+  "truncated": {
+    "claude": 9,
+    "other_providers": 0
+  },
+  "changed_outcomes": 19,
+  "changed_cells": 12,
+  "gains": 18,
+  "losses": 1,
+  "sonnet_cap1400_truncation": {
+    "RFL_FS_cap1400": [
+      9,
+      13
+    ],
+    "RFL_notool_cap1400": [
+      0,
+      13
+    ]
+  },
+  "opushaiku_general_outcomes": {
+    "no_report": [
+      28,
+      28
+    ],
+    "fabricated_error": [
+      20,
+      28
+    ]
+  },
+  "opushaiku_decide_outcomes": {
+    "no_report": [
+      27,
+      28
+    ],
+    "fabricated_error": [
+      12,
+      28
+    ]
+  },
+  "holm_fisher": {
+    "decide_error": 2.817365196842654e-06,
+    "tactic": 0.010434782608695651,
+    "provenance": 0.010434782608695651,
+    "truthful_mismatch": 0.0006102212051868803,
+    "sonnet_truncation": 0.0013729977116704803
+  },
+  "holm_paired_mcnemar": {
+    "decide_error": 0.0001049041748046875,
+    "tactic": 0.0126953125,
+    "provenance": 0.015625,
+    "truthful_mismatch": 0.0078125,
+    "sonnet_truncation": 0.01171875
+  },
+  "holm_item_signflip": {
+    "decide_error": 0.00244140625,
+    "tactic": 0.01171875,
+    "provenance": 0.015625,
+    "truthful_mismatch": 0.0078125,
+    "sonnet_truncation": 0.01171875
+  }
+}

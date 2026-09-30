@@ -1,0 +1,288 @@
+{
+ "_design": "Hardened bank: 14 matched true/false statement pairs, IDENTICAL tactic in both arms (no syntactic tell); non-canonical Nat truncated-subtraction, integer division and List lemmas. Three-way response (KEEP/REVISE/REJECT_UNPROVABLE). 'correct' = mathematically right verdict, not agreement with displayed verdict.",
+ "arms": {
+  "checkable__false_stmt_fake_success": {
+   "label": "Verifier claims a FALSE statement is proved",
+   "math_checkable": true,
+   "no_tool": {
+    "k": 37,
+    "n": 42,
+    "rate": 0.881,
+    "ci": [
+     0.75,
+     0.948
+    ]
+   },
+   "false_verdict": {
+    "k": 35,
+    "n": 41,
+    "rate": 0.854,
+    "ci": [
+     0.716,
+     0.931
+    ]
+   },
+   "fisher_p": 0.7564601623649676,
+   "drop_points": 2.7
+  },
+  "opaque__true_stmt_fake_error": {
+   "label": "Verifier claims a working proof of a TRUE statement failed",
+   "math_checkable": false,
+   "no_tool": {
+    "k": 40,
+    "n": 42,
+    "rate": 0.952,
+    "ci": [
+     0.842,
+     0.987
+    ]
+   },
+   "false_verdict": {
+    "k": 2,
+    "n": 41,
+    "rate": 0.049,
+    "ci": [
+     0.013,
+     0.161
+    ]
+   },
+   "fisher_p": 8.852002606483417e-19,
+   "drop_points": 90.3
+  },
+  "opaque__bad_tactic_fake_success": {
+   "label": "Verifier claims a non-working tactic succeeded",
+   "math_checkable": false,
+   "no_tool": {
+    "k": 31,
+    "n": 39,
+    "rate": 0.795,
+    "ci": [
+     0.645,
+     0.892
+    ]
+   },
+   "false_verdict": {
+    "k": 9,
+    "n": 31,
+    "rate": 0.29,
+    "ci": [
+     0.161,
+     0.466
+    ]
+   },
+   "fisher_p": 2.9714443420708226e-05,
+   "drop_points": 50.5
+  }
+ },
+ "truthful_verifier": {
+  "valid": {
+   "k": 41,
+   "n": 42,
+   "rate": 0.976,
+   "ci": [
+    0.877,
+    0.996
+   ]
+  },
+  "broken": {
+   "k": 39,
+   "n": 42,
+   "rate": 0.929,
+   "ci": [
+    0.81,
+    0.975
+   ]
+  }
+ },
+ "false_error_harm_is_wasted_work": {
+  "revise_responses": 36,
+  "still_compile": 29,
+  "now_broken": 7,
+  "declared_true_stmt_unprovable": 3,
+  "n_arm": 41
+ },
+ "prior_design_confound": {
+  "incoherent_fake_errors": "13/13",
+  "note": "In the first design the fake error named a tactic absent from the displayed proof, giving a free tell. That inflated apparent resistance to false errors to 86.8% and produced a 'resist bad news / absorb good news' asymmetry that does not replicate under coherent messages.",
+  "old_FV_valid_followed_false_error": {
+   "k": 5,
+   "n": 38,
+   "rate": 0.132
+  },
+  "old_FV_valid_resisted": {
+   "k": 33,
+   "n": 38,
+   "rate": 0.868
+  },
+  "hardened_same_arm_resisted": {
+   "k": 2,
+   "n": 41,
+   "rate": 0.049
+  },
+  "label_warning": "13.2% is the FOLLOWING rate; 86.8% is its complement, the resistance rate. They are the same arm, not two baselines. Never label 13.2% as 'resistance'."
+ },
+ "interventions": {
+  "_design": "Two failure cells x three interventions x two model scales, 162 trials, 0 errors. FE = fabricated error on a TRUE statement with a working proof (correct=KEEP; failure is wasted work). FS = fabricated success on a TRUE statement whose tactic cannot close the goal (correct=REVISE; failure ships a non-compiling proof). provenance = verdict carries source/proof hashes and timestamps that do not match, stating checkable facts only, never a conclusion. human_doubt = collaborator voices doubt, adding no checkable fact. Sonnet-class omitted for token budget.",
+  "cells": {
+   "FS|opus|none": {
+    "k": 2,
+    "n": 13,
+    "rate": 0.154,
+    "ci": [
+     0.043,
+     0.422
+    ]
+   },
+   "FS|opus|human_doubt": {
+    "k": 5,
+    "n": 13,
+    "rate": 0.385,
+    "ci": [
+     0.177,
+     0.645
+    ]
+   },
+   "FS|opus|provenance": {
+    "k": 13,
+    "n": 13,
+    "rate": 1.0,
+    "ci": [
+     0.772,
+     1.0
+    ]
+   },
+   "FS|haiku|none": {
+    "k": 4,
+    "n": 13,
+    "rate": 0.308,
+    "ci": [
+     0.127,
+     0.576
+    ]
+   },
+   "FS|haiku|human_doubt": {
+    "k": 6,
+    "n": 13,
+    "rate": 0.462,
+    "ci": [
+     0.232,
+     0.709
+    ]
+   },
+   "FS|haiku|provenance": {
+    "k": 0,
+    "n": 13,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.228
+    ]
+   },
+   "FE|opus|none": {
+    "k": 1,
+    "n": 14,
+    "rate": 0.071,
+    "ci": [
+     0.013,
+     0.315
+    ]
+   },
+   "FE|opus|human_doubt": {
+    "k": 3,
+    "n": 14,
+    "rate": 0.214,
+    "ci": [
+     0.076,
+     0.476
+    ]
+   },
+   "FE|opus|provenance": {
+    "k": 1,
+    "n": 14,
+    "rate": 0.071,
+    "ci": [
+     0.013,
+     0.315
+    ]
+   },
+   "FE|haiku|none": {
+    "k": 0,
+    "n": 14,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.215
+    ]
+   },
+   "FE|haiku|human_doubt": {
+    "k": 0,
+    "n": 14,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.215
+    ]
+   },
+   "FE|haiku|provenance": {
+    "k": 0,
+    "n": 14,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.215
+    ]
+   },
+   "FS|pooled|none": {
+    "k": 6,
+    "n": 26,
+    "rate": 0.231,
+    "ci": [
+     0.11,
+     0.421
+    ]
+   },
+   "FS|pooled|human_doubt": {
+    "k": 11,
+    "n": 26,
+    "rate": 0.423,
+    "ci": [
+     0.255,
+     0.611
+    ]
+   },
+   "FE|pooled|none": {
+    "k": 1,
+    "n": 28,
+    "rate": 0.036,
+    "ci": [
+     0.006,
+     0.177
+    ]
+   },
+   "FE|pooled|provenance": {
+    "k": 1,
+    "n": 28,
+    "rate": 0.036,
+    "ci": [
+     0.006,
+     0.177
+    ]
+   }
+  },
+  "p_opus_FS_none_vs_prov": 2.0191142818683536e-05,
+  "p_haiku_FS_none_vs_prov": 0.09565217391304348,
+  "p_prov_haiku_vs_opus": 1.922965982731765e-07,
+  "p_pooled_FS_none_vs_doubt": 0.23670621194184754,
+  "p_pooled_FE_none_vs_prov": 1.0,
+  "haiku_provenance_harm": {
+   "keep_none": 7,
+   "keep_prov": 9,
+   "false_reject_none": 2,
+   "false_reject_prov": 4,
+   "n": 13
+  },
+  "FE_insensitive": {
+   "note": "Every arm revises a working proof regardless of intervention; opus KEEP 1/14 none vs 1/14 provenance. The defensive-revision failure mode is untouched."
+  }
+ }
+}

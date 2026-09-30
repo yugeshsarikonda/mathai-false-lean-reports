@@ -1,0 +1,11 @@
+source,model,cell,first_correct,last_correct
+followup_claude,claude-haiku-4-5-20251001,ASM_notool,10,11
+followup_claude,claude-haiku-4-5-20251001,DEC_notool,12,13
+followup_claude,claude-haiku-4-5-20251001,RFL_FS,5,6
+followup_claude,claude-haiku-4-5-20251001,RFL_FS_prov_match,1,2
+followup_claude,claude-haiku-4-5-20251001,RFL_notool,8,9
+followup_claude,claude-haiku-4-5-20251001,TV_prov_mismatch,13,14
+followup_claude,claude-haiku-4-5-20251001,TV_success,13,14
+followup_claude,claude-opus-4-5-20251101,DEC_FE,5,4
+followup_claude,claude-opus-4-5-20251101,DEC_notool,12,13
+other_providers,Llama-3.3-70B-Instruct,FV_broken,6,7
